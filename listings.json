@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/scratches_and_scribbles.html",
+      "/posts/pkm_components.html",
+      "/posts/textsvsbeeper.html",
+      "/posts/notion_latex_resume.html",
+      "/posts/self_organizing_bookmarks.html",
+      "/posts/choose_your_notetaking_app.html",
+      "/posts/gdocs_are_underrated.html",
+      "/posts/graph_based_notetaking_opinion.html"
+    ]
+  },
+  {
+    "listing": "/stream.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/scratches_and_scribbles.html",
+      "/posts/pkm_components.html",
+      "/posts/textsvsbeeper.html",
+      "/posts/notion_latex_resume.html",
+      "/posts/self_organizing_bookmarks.html",
+      "/posts/choose_your_notetaking_app.html",
+      "/posts/gdocs_are_underrated.html",
+      "/posts/graph_based_notetaking_opinion.html"
+    ]
+  }
+]

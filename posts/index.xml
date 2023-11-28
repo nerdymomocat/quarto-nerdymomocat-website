@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Nerdy Momo Cat</title>
+<link>https://nerdymomocat.github.io/posts/index.html</link>
+<atom:link href="https://nerdymomocat.github.io/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Long Form Posts</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Wed, 06 Sep 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Scratches and Scribbles – An Attempt at Usability/Feature Testing as a Service</title>
+  <link>https://nerdymomocat.github.io/posts/scratches_and_scribbles.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+tl;dr
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>CS researcher, knows how to code in Python, has ADHD, is price-sensitive, into tracking, productivity, note-taking, and AI-based tools. Tests on MacOS, Android, and Wear OS.</p>
+<p>Check Previous scribbles and the Offer.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/scratches_and_scribbles/sas.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://nerdymomocat.github.io/posts/images/scratches_and_scribbles/sas.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>For a bunch of years, I have done a significant amount of software and course usability testing. Lately, I’ve been doing it much more frequently. Honestly, the main reason I created this account was to engage with new app creators, to figure out if there’s something I love and something that <em>scratches</em> my itch.</p>
+<p>This post is mainly documentation of what I do when I conduct one of these usability walkthroughs, who I am, what I usually look for, what I can bring to the table, and some social proof.</p>
+<section id="offer" class="level2">
+<h2 class="anchored" data-anchor-id="offer">Offer</h2>
+<p><strong>I’m offering a basic no-deadline 100-word scribble for free, detailed scribbles for $25, a 5-minute video scribble for $50, and 30-min calls for $80, and custom pricing for continual testing.</strong> As you can see, the pricing here is not indicative of the time I would need to spend, with your app or course (other than the call version, where it would be 30 minutes on top of usage), but rather how much I would have to plan and prepare for the output. If you have a free app that you think I’d be interested in, feel free to shoot me a message. If it’s something I’m testing for personal use, I might do detailed scribbles for free. I’m not willing to pay to test apps.</p>
+<p>On my main account, I do provide some consultancy from a research perspective (fine-tuning vs in-context learning, preference learning, generation evaluation, and verification), priced significantly higher (starting at $500/hour). You can contact me if that is something you are looking for, and we can switch over to talking on my main account, if there’s a fit, so that you can be confident of my expertise.</p>
+<section id="if-i-have-done-it-for-free-before-why-am-i-charging-for-it" class="level3">
+<h3 class="anchored" data-anchor-id="if-i-have-done-it-for-free-before-why-am-i-charging-for-it">If I have done it for free before, why am I charging for it?</h3>
+<p>I think my main thought process is monetizing some aspect of the service (<em>I am usually paid upwards of $100 an hour for group user voice sessions by Big Tech companies</em>). Secondly, it’s also a time constraint and an action constraint. If you want screenshots, annotations as to what works, what doesn’t, details, etc., and you want them within a certain time limit, I need to mentally make space for it. If that isn’t what you need, you can just ask for a basic no-deadline scribble for free, as has always been the case.</p>
+</section>
+</section>
+<section id="who-am-i" class="level2">
+<h2 class="anchored" data-anchor-id="who-am-i">Who Am I?</h2>
+<p>I am a student researcher, transitioning to being an industry researcher this year. I have majored in computer science, and my research is in the area of LLMs (evaluation, data transparency, and fine-tuning). I have ADHD, diagnosed as an adult, which significantly informs my app usage. I’ve also been involved in journaling and quantified self for at least 15 years. I know how to code, primarily scripting in Python, but can hack stuff together in JavaScript. I pursue art as a hobby, both in physical and digital mediums.</p>
+<section id="what-devices-do-i-have" class="level3">
+<h3 class="anchored" data-anchor-id="what-devices-do-i-have">What devices do I have?</h3>
+<p>I use a MacBook - M1 Pro, 14-inch, and an 11-inch iPad. I use iOS at the moment but will be shifting to Android in Oct ’23. I use WatchOS at the moment but, again, will be shifting to WearOS in Oct ’23. I don’t use external monitors at the moment but am slowly transitioning to one by the end of Sep 2023.</p>
+</section>
+<section id="which-softwares-am-i-familiar-with" class="level3">
+<h3 class="anchored" data-anchor-id="which-softwares-am-i-familiar-with">Which softwares am I familiar with?</h3>
+<p>On a day-to-day basis, I use Spark Mail, Todoist, Texts, MacGPT, BoltAI, Notion, Canva, VS Code, Warp, Shottr, Raycast, Timer RH, Quick Draft, Numi, Rewind, Dato, Day Progress, Cloud Mounter, Flow, Data Jar, Mela, Aiko, Screen Studio, Screenflow, Screenrun, Mela, Bears, Bartender, Spotify, Overleaf, Google Suite, Procreate, Better Touch Tool, Quick Tally, and Habits. I have previously extensively used Arc Browser, Capacities, Tana, Superlist, TickTick, and possibly many others that I can’t think of at the moment.</p>
+</section>
+</section>
+<section id="what-i-can-help-with" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-can-help-with">What I can help with?</h2>
+<p>If you’re looking for a pro-user who likes to figure things out on her own, you’d most likely benefit from my feedback. I can test usability, onboarding, and the general use case of your app. I don’t approach it from the perspective of testing stated features. I usually go about it like this: I have X and Y use cases, so I’m looking for an app that fulfills them, and I envision using the app to fill a particular gap or replace a current tool.</p>
+<section id="my-use-case-driven-scribbles" class="level3">
+<h3 class="anchored" data-anchor-id="my-use-case-driven-scribbles">My Use-Case Driven Scribbles</h3>
+<p>This is also why I can’t test/do scribbles for apps that I presently have no use case for. You’d be better served by going to someone else who either has that use case or is solely aiming to test features.</p>
+<p>Use-case/problem-driven testing and onboarding also imply that I have a certain outcome in mind, and I will mention any hurdles that come with that use case. I make sure to be very specific and define the constraints under which I am testing something—so as to not imply a general perspective. We can talk about whether this matches when you first reach out to me.</p>
+</section>
+<section id="your-feature-driven-scribbles" class="level3">
+<h3 class="anchored" data-anchor-id="your-feature-driven-scribbles">Your Feature Driven Scribbles</h3>
+<p>Another kind of scribble I can do is test what you are asking me to judge an app for, where I set my use case to be the one that your target customer’s looks like. I can do that pretty well, because as an academic researcher, I review as a job, and I am used to seeing things from other people’s perspectives. And I am good at it. I will mention though, in such cases, I am still a proxy case study, and you are seeing through the lens of a customer who is aiming to be what you need, rather than one who is what you need.</p>
+</section>
+<section id="features-i-index-on-for-long-term-usage" class="level3">
+<h3 class="anchored" data-anchor-id="features-i-index-on-for-long-term-usage">Features I index on for long term usage</h3>
+<p>Multi-platform is important for me. Even though I’ve been Apple ecosystem-only for the past year, I don’t plan to remain in that state. So, most apps that are single-ecosystem-only...</p>
+<p>If it’s a productivity app, I heavily index on collaboration. I don’t need team spaces or permissions, but I don’t work in isolation. So anything that is single-person use only is already something I can’t use for a long time.</p>
+<p>If it’s a single-person use app, I really need to see an export option. I’m not keen on the idea of app lock-ins; even basic CSV export options are fine for many apps, in my opinion.</p>
+</section>
+<section id="features-i-test-but-do-not-have-personal-use-case-for" class="level3">
+<h3 class="anchored" data-anchor-id="features-i-test-but-do-not-have-personal-use-case-for">Features I test but do not have personal use case for</h3>
+<p>I don’t care much about E2E, local-first apps, and markdown. Specifically, I have a special dislike for visible markdown in editors, and yes, as someone who uses VS Code 8 hours a day and codes for 10 hours a day, I still can’t bring myself to like markdown for long-form writing.</p>
+</section>
+<section id="i-know-how-llms-perform" class="level3">
+<h3 class="anchored" data-anchor-id="i-know-how-llms-perform">I know how LLMs perform</h3>
+<p>If you have an AI app that isn’t aiming to just be a direct RAG, or text generation, and is instead doing something cool with it, I would love to beta test it. This is not only from the perspective of a direct user, but also from the perspective of someone who has worked in the field of NLP for 9+ years and knows the ins and outs of how LLMs perform at various tasks. I can advise on whether you need guardrails, whether there are edge cases you haven’t considered, and so on.</p>
+<p>On my main account, I do provide some consultancy from a research perspective (fine-tuning vs in-context learning, preference learning, generation evaluation, and verification), priced significantly higher (starting at $500/hour). You can contact me if that is something you are looking for, and we can switch over to talking on my main account, if there’s a fit, so that you can be confident of my expertise.</p>
+</section>
+</section>
+<section id="why-i-might-not-be-a-good-fit" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-might-not-be-a-good-fit">Why I Might Not Be a Good Fit?</h2>
+<section id="price-sensitive" class="level3">
+<h3 class="anchored" data-anchor-id="price-sensitive">Price sensitive</h3>
+<p>I am very price-sensitive. I live in the US, but a lot of the work I do is collaborative, which involves multiple people using a software. I will 100% judge the utility of the app based on its cost. For reference, my subscription-based apps are: Readwise (for Reader), Spotify, Netflix, Google One, iCloud, ChatGPT (for GPT-4), and Todoist. My particular belief is—I’m okay with paying a one-time cost in the range of $20-$30 for exceptional software, and around $4/month for apps that I use extensively (use for at least an hour a day). Any price over this, or any high margins (yes, looking at you, AI apps), and I will mention the cost—and expect a feature base that is in line with the cost.</p>
+</section>
+<section id="beta-apps-and-new-companies" class="level3">
+<h3 class="anchored" data-anchor-id="beta-apps-and-new-companies">Beta apps and new companies</h3>
+<p>I don’t necessarily judge apps based on how long they’ve been out. This is a common metric that people use to judge apps, but for me, I’m trying to integrate the app into my workflow. Sure, I have some apps that I keep an eye on for the future, but for me, an app is only useful if I can use it now, so I compare it to options available at the moment.</p>
+</section>
+<section id="animation" class="level3">
+<h3 class="anchored" data-anchor-id="animation">Animation</h3>
+<p>Animation is a huge sell for iOS apps. I suffer from motion sickness and use the reduce motion setting. Heavy animation bothers me much more than it entices me. However, I do love subtle, cute, or whimsical animations, and I will mention the ones that particularly made me happy!</p>
+</section>
+<section id="ai-apps" class="level3">
+<h3 class="anchored" data-anchor-id="ai-apps">AI Apps</h3>
+<p>I believe in the concept of bad GPT API wrappers and good GPT-based apps. I talk a bit about it here, but primarily, if your app calls an API and outputs text based on a template or constructed prompts, it’s very likely that my feedback won’t be overwhelmingly positive. I am still happy to talk about interactions, design, and tools, but if you’re making an AI generator for X, you’ll likely end up with a comment like <a href="https://twitter.com/nerdymomocat/status/1688852035188469760">this</a> from my end.</p>
+</section>
+<section id="testing-in-isolation" class="level3">
+<h3 class="anchored" data-anchor-id="testing-in-isolation">Testing in isolation</h3>
+<p>I have and will always compare apps. I know that many indie hackers believe they are building in a market where multiple people can have a piece of the pie, and this is definitely true, for both indie hackers and big tech companies (or else Dropbox would not have existed). But as a consumer, or someone who chooses apps or recommends them, I will look at options and compare them. So it is likely that some of my scribbles will involve comparisons such as – look at X for feature A; I really like their implementation.</p>
+</section>
+<section id="this-aint-necessarily-marketing-material" class="level3">
+<h3 class="anchored" data-anchor-id="this-aint-necessarily-marketing-material">This ain’t necessarily marketing material</h3>
+<p>If you are looking for user-generated content for marketing, or looking for reviews that you can include on your homepage, I am not sure I am the right fit. It is very unlikely that my scribble will be all positive; it will definitely not be hype-y, and it won’t have any special touches that are targeted toward making it viral or quotable.</p>
+</section>
+<section id="onboarding-calls" class="level3">
+<h3 class="anchored" data-anchor-id="onboarding-calls">Onboarding Calls</h3>
+<p>I do not do onboarding calls. I just can’t do them due to time constraints and how little I get out of them. And I strongly believe that while onboarding calls are great for an average customer, it helps to know what someone experiences when they try to use your app for the first time, alone, with no onboarding sequence. Because I don’t read any onboarding sequence, and I believe I can figure stuff out.</p>
+</section>
+</section>
+<section id="i-have-done-this-before" class="level2">
+<h2 class="anchored" data-anchor-id="i-have-done-this-before">I Have Done This Before</h2>
+<section id="previous-scribbles" class="level3">
+<h3 class="anchored" data-anchor-id="previous-scribbles">Previous scribbles</h3>
+<p>I’ve done this a ton before. Sometimes I do detailed versions and follow up in chat; sometimes I do shorter versions. You can check my scribbles about <a href="../stream.html#trying-the-horse-browser">Horse Browser</a>, <a href="../stream.html#my-month-with-superlist-the-good-the-bad-and-the-wishlist">Superlist</a>, <a href="../posts/textsvsbeeper.html">Texts vs Beeper</a>, <a href="https://twitter.com/nerdy_momo_cat/status/1625480007161376769">Habitify</a>, <a href="https://twitter.com/nerdymomocat/status/1670083931058876416">Collections DB</a>, <a href="https://twitter.com/nerdymomocat/status/1636279596508389376">Saga</a>, <a href="https://twitter.com/notefunhere/status/1546428286812598272">Notion</a>, <a href="https://twitter.com/nerdymomocat/status/1629511611332583426">Awesome Habits</a>, <a href="../posts/gdocs_are_underrated.html">Google Docs</a> and <a href="https://twitter.com/nerdymomocat/status/1590546452966580224">Arc</a>. I have privately tested and provided scribbles for Dropbox, Screenrun, Screenstudio, montaigne, Unlost and many others.</p>
+</section>
+<section id="social-proof" class="level3">
+<h3 class="anchored" data-anchor-id="social-proof">Social proof</h3>
+<p>Some people think I’m really good at this, which is honestly why this post exists in the first place. Here are some people talking about it: <a href="https://twitter.com/daniel_nguyenx/status/1682282583445639169">Daniel</a>, <a href="https://twitter.com/CyrusZhang99/status/1670334764421902336">Cyrus Zhang</a> and <a href="https://twitter.com/vladdevs/status/1698620457790873959">Vlad</a>.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Productivity Apps</category>
+  <guid>https://nerdymomocat.github.io/posts/scratches_and_scribbles.html</guid>
+  <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Components of a Personal Knowledge Management System</title>
+  <link>https://nerdymomocat.github.io/posts/pkm_components.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-6bf1a93d980.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-6bf1a93d980.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Personal Knowledge management has remained a subject of discussion since ages. One of the most common way people manage their personal knowledge is spread across email, drive and notes apps. Most people end up using google docs, apple notes, or google keep as a starter. If they want to do something more complicated, they end up with something like Evernote or OneNote. Add another level of complexity and you end up with something similar to Notion, Tana etc. No matter the app chosen and the management philosophy, it all boils down to primitives, capture, processing and actions. So this post is a generalized discussion of these components. I also talk about how AI can contribute or interact with these components in short and long term.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-e5352d24449.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-e5352d24449.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="understanding-the-pkm-primitives" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-pkm-primitives">Understanding the PKM Primitives</h2>
+<p>Primitives in my viewpoint are the basic building blocks of any system. In this case we are talking about personal knowledge management systems. Building blocks usually have 2 characteristics: they can be combined to build more complex systems; and they can be used to define the possibilities or infrastructure of any system.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-4cc6496d691.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-4cc6496d691.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="app-primitives" class="level3">
+<h3 class="anchored" data-anchor-id="app-primitives">App Primitives</h3>
+<p>App primitives, in my viewpoint are the capabilities or possibilities of a system. These are often implemented on a backend level and not on a content level. It does not matter what the content is, app primitives are most content-agnostic. Some common examples of these are share, collaboration. permissions, history etc. These apply to any content that is present in the app. This is also an implementation that many people are divisive over. For example files over app is a philosophy that is still relevant to app primitives, just that the storage is plaintext or markdown files.</p>
+</section>
+<section id="content-primitives" class="level3">
+<h3 class="anchored" data-anchor-id="content-primitives">Content Primitives</h3>
+<p>Content primitives are smaller building blocks that can combine together to create better or more complex systems. Content primitives define a set of actions associated to those “blocks” as well. the content primitives defined above should cover most cases, but one of the best abilities that an app can provide is creating new content primitives specific to the user, such as Notion or Tana. One of the missing aspect for all of these content primitives is default actions and default recognition. For example, task is a common content primitive in many apps — the idea there being that it has at least two states of not done vs done. Or a timestamp has a “change date” action. But there is a dire dearth of content primitives recognized by apps.</p>
+</section>
+</section>
+<section id="the-art-of-capture" class="level2">
+<h2 class="anchored" data-anchor-id="the-art-of-capture">The Art of Capture</h2>
+<p>Capture is a largely unsolved problem. Every time a new capture app comes into picture; there is a reason why everyone is so excited. Capture has many problems to overcome → it has to be quick, it should be in context, it has to work offline, it has to work with multiple modes. Capture can be classified into two categories →capture from integrations or basically data input into a different app that is then pulled into your personal knowledge management system. Snippets on the other hand are content that is meant to be as a direct input into the knowledge system.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-ba3a3016f15.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-ba3a3016f15.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="integrations" class="level3">
+<h3 class="anchored" data-anchor-id="integrations">Integrations</h3>
+<p>Integrations refer to the general idea of having different apps that are specialized; to be later fed into your personal knowledge management system There can be multiple integrations that people have — the most common ones being chat and email. No one expects to be talking through their personal knowledge system (unless you are Google Chat and Spaces), but having integrations ensures that you still get the best experience for the particular component.</p>
+<p>Integrations tie into various aspects of content primitives. For example, an email integration ideally integrates with person, text and files primitives. The special aspect of any great app is this idea of integration being automated through LLMs or AI; converting this unstructured data input into structured tags or relations with the baseline or user defined content primitives.</p>
+</section>
+<section id="snippets" class="level3">
+<h3 class="anchored" data-anchor-id="snippets">Snippets</h3>
+<p>Snippets are direct input of data. These can either be standalone snippets — for example that note you create about your partner, or can be positioned snippets. Positioned snippets tie back into the content primitives, that is, you have a particular kind of content, their position.</p>
+<p>There are certain aspects of snippets that are best helped by AI. Consider standalone snippets. OCR, transcription, object recognition are some basic actions that can be performed on these snippets to improve the utility of a PKM. For positioned snippets, something that extracts context and embeds the context within the the captured input is possibly the north star of utility for a PKM app. You want a house in a meme vs house on a street show up in the same context during search or filtering.</p>
+</section>
+</section>
+<section id="unlocking-knowledge-through-processing" class="level2">
+<h2 class="anchored" data-anchor-id="unlocking-knowledge-through-processing">Unlocking Knowledge Through Processing</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-63fd62d11fd.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-63fd62d11fd.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="explicit-processing" class="level3">
+<h3 class="anchored" data-anchor-id="explicit-processing">Explicit Processing</h3>
+<p>Explicit processing refers to the idea of a person manually organizing the content in their PKM in a way that best makes sense. There are multiple ways this kind of processing is facilitated; for example, in the very basic apps, tags and folders are the most prominent methods of explicit processing. Bear and obsidian support hierarchical tags and that improves the kind of organization an app can provide. More complex apps provide linking between “snippets”, rolling up associated information, table of contents as possible processing of the input content.</p>
+</section>
+<section id="implicit-processing" class="level3">
+<h3 class="anchored" data-anchor-id="implicit-processing">Implicit Processing</h3>
+<p>Implicit processing on the other hand is something that a PKM performs in the background. Most apps that exist at the moment have none or barely existent implicit processing. Let’s try an analogy to understand what the very basic ideas of implicit processing is. — “Oh you open google keep everytime you come back from this location” or “It seems like you are not home. Should I turn off all lights” is a self inferred rule by an operating system or through a smart home system. For PKM, this can look like — oh, we create this scrollable mini map on the side that extracts the main theme/idea from each paragraph. Implicit processing is what makes any app seem seamless. While you can go along a fair bit with handcrafted rules, the best implicit processors are guided structuring processes that align with a user’s desired behavior and still run in the background.</p>
+</section>
+</section>
+<section id="actions-the-grand-finale" class="level2">
+<h2 class="anchored" data-anchor-id="actions-the-grand-finale">Actions - The Grand Finale</h2>
+<p>Actions, as I speak of, are interactions that can occur with or on the data that is stored in a PKM. Actions define how you use the system that you are engaging with. Actions can occur not only on a singular snippet but on a combination of them. Actions and processing are also the key differentiators between choosing different applications.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-5cf51abe08d.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://nerdymomocat.github.io/posts/images/pkm_components/The_Components_of_a_Personal_Knowledge_Management-5cf51abe08d.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="create" class="level3">
+<h3 class="anchored" data-anchor-id="create">Create</h3>
+<p>Creating is one of the primary actions that everyone here probably identifies with. Whether you are a content creator or not, creation of notes, long form content, sharing a set of snippets in a post, a listicle, creating easily glanceable information, creating a website, creating a repository, all of forms of creation actions. Creating directly feeds back into processing, given how it is at direct user-level interaction. It is an active action (funny, how active should usually imply actions anyway).</p>
+</section>
+<section id="consume" class="level3">
+<h3 class="anchored" data-anchor-id="consume">Consume</h3>
+<p>Consumption is usually the other side of coin for primary actions. Consumption though is a passive action. This hence, does not usually correlate with explicit processing. Learning the behavior of consumption though is a huge deal of processing — for example, if you look up “house”, what do you want to come up in search. This is mostly a form of data log modelling, and beyond the scope of this post.</p>
+<section id="structured" class="level4">
+<h4 class="anchored" data-anchor-id="structured">Structured</h4>
+<p>Structured consumption in my perspective refers to a retrieval based action. This can be structured in either its attributes that can be used to filter or correlate, to search or bring up related to information or snippets, plot information on a graph for two related variables etc. I use the word structure specifically to refer to something that has no creation of information. The information all exists and is surfaced as needed.</p>
+</section>
+<section id="unstructured" class="level4">
+<h4 class="anchored" data-anchor-id="unstructured">Unstructured</h4>
+<p>Unstructured consumption in my opinion is when the app does some kind of synthesis of information. This can be as basic as synthesizing the summary of the snippet (as Notion AI and a million other PKM apps do), can be summarizing or conversing with the content stored in the PKM (such as mem) or can be more integrated into the creation process (such as expand, augment this content). While this is the lowest hanging fruit form of integration, getting a great unstructured integration using AI requires more than just dumping embeddings into a prompt interface, something that many of the current apps do not seem to onboard for.</p>
+</section>
+</section>
+<section id="render" class="level3">
+<h3 class="anchored" data-anchor-id="render">Render</h3>
+<p>Any personal knowledge management system is a dynamic ecosystem of practical and user-friendly structures. Within this system, you will usually find galleries, boards, timelines, groups (for example in Notion), and flashcards (for example in Anki). These structures serve as valuable resources, containing carefully curated knowledge that is easily accessible and interactive. Galleries act as personalized exhibition spaces, housing a collection of images, diagrams, and multimedia content that are visually appealing and intellectually stimulating. Boards function as brainstorming hubs, enabling you to organize various pieces of information, such as cards, notes, or snippets, in a way that mirrors the natural process of pinning ideas on a bulletin board.</p>
+</section>
+<section id="modify" class="level3">
+<h3 class="anchored" data-anchor-id="modify">Modify</h3>
+<p>Modification actions are essentially changes applied to your content - it could be as simple as editing a typo or deleting an unnecessary file. They could also be higher-level actions, such as marking a task complete or archiving an old document. Modification also has a deep integration with implicit processing, which is what makes processing so difficult to execute correctly. If you add a name to your meeting note attendees, it should record the new information, but now that changes related notes and unstructured consumption of information about this person.</p>
+</section>
+</section>
+<section id="tl-dr" class="level2">
+<h2 class="anchored" data-anchor-id="tl-dr">tl;dr</h2>
+<p>Personal Knowledge Management (PKM) involves capturing, processing, and taking actions on information. App primitives and content primitives are the building blocks of PKM systems. Integrations and snippets are two types of capture methods, with integrations pulling data from other apps and snippets being direct input. Processing can be explicit (manual organization) or implicit (background processing by the PKM). Actions, such as creating and consuming content, are how users interact with the PKM. Rendering structures the information for easy access, while modification allows for changes and updates. AI can enhance PKM by providing context, recognition and automation to improve the efficiency and effectiveness of the PKM system.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>PKM</category>
+  <category>Note Taking</category>
+  <category>AI</category>
+  <guid>https://nerdymomocat.github.io/posts/pkm_components.html</guid>
+  <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Texts vs. Beeper: The (App)solute Winner Is?</title>
+  <link>https://nerdymomocat.github.io/posts/textsvsbeeper.html</link>
+  <description><![CDATA[ 
+
+
+
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Beeper Widgets
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Beeper released Beeper widgets on August 22, 2023 that are not covered in this post. Read more about Beeper Widgets <a href="https://blog.beeper.com/p/build-widgets-with-beeper">here</a>.</p>
+<blockquote class="blockquote">
+<p>Beeper Widgets are web apps shown inside Beeper that can interact with chat data, like reading messages, seeing participants, and sending or reacting to messages on your behalf. Our widgets are standard web apps built with React, so developers have full freedom to create any interface, interact with other services, and do anything else a website can.</p>
+</blockquote>
+</div>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>When <a href="https://twitter.com/pkmbeth">@Beth</a> messaged me that she has invites for <a href="https://texts.com/">Texts</a>; I was excited.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-b352b61b0d2.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Texts invitation from Beth 2023-06-24"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-b352b61b0d2.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Texts invitation from Beth 2023-06-24</figcaption>
+</figure>
+</div>
+<p>I was equally excited about getting off Beeper’s waitlist a little over a month ago.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-9192cf69508.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Invitation from Beeper 2023-05-18"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-9192cf69508.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Invitation from Beeper 2023-05-18</figcaption>
+</figure>
+</div>
+<section id="why-did-i-even-want-to-try-texts-" class="level3">
+<h3 class="anchored" data-anchor-id="why-did-i-even-want-to-try-texts-">Why did I even want to try Texts?</h3>
+<p>Well, if you are reading this, you know this is my alt account. While I do not have multiple apps that I run alt accounts for, Twitter is definitely one of them. And Beeper at the moment does not support multiple accounts for the same app.</p>
+<p>As I have said before, I am very much a person who values utility over design; and especially would prefer free software that still works over paid beautiful ones (that also work, mind you).</p>
+</section>
+<section id="what-about-texts-not-having-a-mobile-app-" class="level3">
+<h3 class="anchored" data-anchor-id="what-about-texts-not-having-a-mobile-app-">What about Texts not having a mobile app?</h3>
+<p>While I do have Beeper installed on my phone, Texts not having a mobile app is not a deal breaker for me. This is specifically because the I do have per app notifications for personal messaging turned on. Hence, the benefit of Beeper comes to be in the extras — which I will talk about later, but in this case, is just scheduling; which I do use if need be.</p>
+</section>
+<section id="pricing" class="level3">
+<h3 class="anchored" data-anchor-id="pricing">Pricing</h3>
+<p>Texts pricing is a concern for me, though thankfully their education pricing is okay by me — which at the moment is $5/mo. Beeper at the moment is free, though comes with a very very extensive waitlist. They do propose to have paid plans in the future, and if it is anywhere in the range of $5/mo, I will pay for it.</p>
+<p>tl;dr — I think $5/mo for messaging aggregator app is where I place the value to be.</p>
+</section>
+</section>
+<section id="quick-look" class="level2">
+<h2 class="anchored" data-anchor-id="quick-look">Quick look</h2>
+<p>In case all you want is a quick look at what they can do or not do, the two graphics below almost cover everything. You can also go through each section/sub-section and look for checkmarks (has this option), meh (kinda), cross (does not have this option), plus (additional benefits) and minus (poor implementation).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-f18160c8b1f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Texts UI out of box"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-f18160c8b1f.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Texts UI out of box</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c00abdf1836.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Beeper UI out of box"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c00abdf1836.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Beeper UI out of box</figcaption>
+</figure>
+</div>
+</section>
+<section id="design-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="design-comparison">Design Comparison</h2>
+<p>Let’s get this out of the way. I know many people care about this and I do want to touch on it, because that is one of the major out-of-box difference between Texts and Beeper.</p>
+<p>Design decisions of course affect the UI/UX of individual actions and I will discuss them while I discuss the functionality. This section is solely focussed on the looks, and not the UX of the two apps.</p>
+<section id="basic-looks" class="level3">
+<h3 class="anchored" data-anchor-id="basic-looks">Basic Looks</h3>
+<p>Texts feels like a “beautiful app” out of box. On the other hand Beeper feels like a hacker version of Texts. Now, none of this is to say, one is more or less stable than the other. Of course you can modify CSS in Beeper but no immediate changes makes it look comprehensive.</p>
+<p>There are of course differences in the setup page, but I do not care about it. You need to setup things ONCE. And yes, texts looks much better in that regard. Reduced number of popups, consistent design etc. But again, you will access it only once.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c322b22e3cb.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Texts UI out of box looks way cleaner than Beeper’s"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c322b22e3cb.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Texts UI out of box looks way cleaner than Beeper’s</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-bothers-me-" class="level3">
+<h3 class="anchored" data-anchor-id="what-bothers-me-">What bothers me?</h3>
+<p>I am not the kind of person to care about Apple-esque design. If you are, then Beeper isn’t for you. That being said, there are still multiple things that bother me in Beeper’s design.</p>
+<ul>
+<li>The message preview in the sidebar can be one or two lines making it feel inconsistent</li>
+<li>The use of You on left and ticks/double-ticks misaligns the whole preview and very much prefers Texts implementation here. Even when the words (You) do not exist, the text in some cases does not align to the contact’s name. Presence of tick/double-tick signifies that it was sent by you anyway.</li>
+<li>Chat settings open in a new modal on top of everything? Why?</li>
+<li>Schedule send has an orange colored huge button, why?</li>
+<li>There is no visual gradient or information in the sidebar list to identify which chat is opened at the moment.</li>
+<li>Some actions such as search inside a chat or favorite a chat are hidden in the top menu bar of Beeper. That to me makes no sense!</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-94e785d25c2.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Click on the gif to see the menu bar actions and search UX"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-94e785d25c2.gif" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Click on the gif to see the menu bar actions and search UX</figcaption>
+</figure>
+</div>
+<ul>
+<li>App indicator on the right has an outlined mode and I don’t think I like it though it is easily fixable through CSS.</li>
+<li>Low priority and archive should be up there with categories but it isn’t. There isn’t a need for a floating “Open Archives” button.</li>
+<li>The sidebar opens with a stack icon which still confuses me. I would prefer a standardized icon like a hamburger menu.</li>
+<li>Group chats show who sent the last message which is awesome but also shows their contact picture and it just makes a mess.</li>
+</ul>
+</section>
+</section>
+<section id="functionality-comparison" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="functionality-comparison">Functionality Comparison</h2>
+<section id="supported-apps" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="supported-apps">Supported Apps</h3>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+</blockquote>
+<p>Beeper supports more apps: specifically Google Chat, Instagram and android SMS are notably missing from Texts. This is important to me, because I do plan to shift to Android, and I would want my sms to be available on Mac. Also important because, while iMessage does already have a desktop sync component, google messages does not have one on Mac, and Beeper does shine there.</p>
+<p>Google Chat is important for me as someone in education, where the university, my lab and colleagues; all use chat often for varying purposes.</p>
+<p>Instagram has been constantly buggy; even for Beeper, but not longer than 2 days (the last time it happened, it was buggy for 12-ish hours). I believe that is due Meta’s API issues, but Beeper has fixed connections faster than Texts. I can assume that because while Instagram is back on Beeper, it is still missing from Texts.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-49aec96a87e.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Update speed in Beeper"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-49aec96a87e.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Update speed in Beeper</figcaption>
+</figure>
+</div>
+</div></div><section id="imessages" class="level4">
+<h4 class="anchored" data-anchor-id="imessages">iMessages</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+</blockquote>
+<p>Texts needs an extra helper for keeping the messages synced. I believe that is because they are extracting or intercepting rather than syncing through an extra server as Beeper is. That allows Beeper. That is one of the main reasons why you can have iMessage on Android/Windows in Beeper, and is unlikely to come anytime soon to Texts. Personally, when I switch back to Android, I do not need iMessage and I will not care about this. Google messages on the other hand allows for a QR code based login (similar to whatsapp) — and I am disappointed that does not exist on Texts.</p>
+</section>
+</section>
+<section id="speed-and-updates" class="level3">
+<h3 class="anchored" data-anchor-id="speed-and-updates">Speed and Updates</h3>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-face-meh-blank" aria-label="face-meh-blank"></i></p>
+</blockquote>
+<p>While Beeper in usage is snappier (Texts feels slower to me) — Beeper’s startup time from being closed as an app to starting up is atrocious. Thankfully I never shut down my laptop and my messaging app is never closed, so I do not really care about this. The only caveat to this being — Beeper literally sends out new updates every single day (sometimes twice a day); and once it does update, you have to put up with the slow startup speed (takes a minute or two).</p>
+</section>
+<section id="actions" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="actions">Actions</h3>
+<section id="archive" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="archive">Archive</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>While both Beeper and Texts allow for archiving a conversation, only Texts allows for syncing state of the archive with the native platform. Texts also has an option of “Move to Other” and “Hide” which kind of do the same thing — and I am not really sure if they need to exist. But more options for organizing the cluttered inbox has never hurt anyone!</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-3bf337d6178.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-3bf337d6178.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div></section>
+<section id="edit-messages" class="level4">
+<h4 class="anchored" data-anchor-id="edit-messages">Edit Messages</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Both Beeper and Texts support editing a text message on platforms that do support it. Unfortunately because Beeper does not have a platform specific context menu, sometimes you might try editing a message and end up with an error.</p>
+</section>
+<section id="mark-as-unread" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="mark-as-unread">Mark as Unread</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Both Beeper and Texts have an option to mark a conversation as unread, neither of which syncs back to the native platform. Texts has an add on feature here called “Stealth mode” that lets you keep a conversation remain marked as unread even if you click on it and read it; unless you reply to them.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-d73ed56ce3c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-d73ed56ce3c.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div></section>
+<section id="delete-conversation" class="level4">
+<h4 class="anchored" data-anchor-id="delete-conversation">Delete Conversation</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Texts provides a feature to delete a complete conversation. This is especially useful for spam twitter conversations. While Beeper does put them automatically in to the low priority inbox (invites box for Texts) — you cannot delete the conversation/thread and I do not like that. Delete thread/conversation entirely does not seem to sync state with the original app and that is a bummer.</p>
+</section>
+<section id="select-multiple-messages" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="select-multiple-messages">Select multiple messages</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Texts allows you to select multiple messages using Shift + ↑ which you can then use to copy, remind, forward or delete (not shown here because these are tips inbox) and that is amazing. I have yet to find this functionality in Beeper, and quite possibly it does not exist.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-8d18c384357.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-8d18c384357.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div></section>
+<section id="delete-message" class="level4">
+<h4 class="anchored" data-anchor-id="delete-message">Delete Message</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i></p>
+</blockquote>
+<p>Both Beeper and Texts supports deleting a message, but only texts separately shows Delete for everyone vs Delete for me in Whatsapp, which is not important to me, but an attention to detail I can appreciate. These deletes are synced with the server (so you do see a similar state when you open the corresponding app)</p>
+</section>
+<section id="forward-message" class="level4">
+<h4 class="anchored" data-anchor-id="forward-message">Forward Message</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i></p>
+</blockquote>
+<p>Both Texts and Beeper allow you to forward a message. Both allow you to forward a message to multiple users. While Texts does this as a popup modal, Beeper does this in sidebar for some reason; and I prefer Texts implementation here.</p>
+</section>
+<section id="reply-to-message" class="level4">
+<h4 class="anchored" data-anchor-id="reply-to-message">Reply to Message</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Both Beeper and Texts supports replying to a message and the, so that is awesome! Beeper adds an extra option to view thread when there are a series of replies in a thread.</p>
+</section>
+<section id="open-conversation-in-corresponding-app" class="level4">
+<h4 class="anchored" data-anchor-id="open-conversation-in-corresponding-app">Open Conversation in Corresponding App</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+</blockquote>
+<p>While most people might not find a use case for this; I would have heavily used this feature in 2 days. Whatsapp does not allow for calling through third party clients. Being able to open a conversation in Whatsapp to call my mom when she has called me 80 times; always helps. Trust me; it saves her a minute of panic attacks. But texts seems to be able to open webapps but not on desktop apps?</p>
+<p>Texts also has a chrome extension that allows you to open a chat on twitter or other web platforms back in the texts app — and that is another one I appreciate.</p>
+</section>
+</section>
+<section id="content" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="content">Content</h3>
+<section id="search" class="level4">
+<h4 class="anchored" data-anchor-id="search">Search</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>While both apps allow for searching across all chats and across a single chat; I prefer the design choice of Texts. Additionally, search in Texts highlights the word in a message whereas in beeper it just shows relevant messages.</p>
+</section>
+<section id="media" class="level4">
+<h4 class="anchored" data-anchor-id="media">Media</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></p>
+</blockquote>
+<p>In Texts, the files and media section does not load media (or messages for that matter) before install date unless and until you scroll up the message viewport to an earlier date. I wish there was a setting to specify the earliest date you want to load messages from, but that does not seem to be the case.</p>
+</section>
+<section id="call-and-video" class="level4">
+<h4 class="anchored" data-anchor-id="call-and-video">Call and Video</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-question" aria-label="question"></i></p>
+<p>Texts: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+</blockquote>
+<p>Beeper seems to support call and video for certain channels. It is not apparent to me, which ones those are — given I do not use Slack and Discord. It does not seem to support Messenger or Whatsapp for calling. Texts does not provide any notifications for incoming calls and that is a huge bummer.</p>
+</section>
+<section id="notifications" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="notifications">Notifications</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Both Beeper and Texts have an app level notification setting and a conversation level notification setting. Beeper also has other kinds of notification settings, which I assume are really powerful for slack and discord — both of which I do not use at the moment.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-adf6320f53b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-adf6320f53b.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div></section>
+</section>
+<section id="add-on-features" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="add-on-features">Add On Features</h3>
+<section id="send-later" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="send-later">Send Later</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> Schedule and dismiss</p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minue" aria-label="minue"></i> Schedule when app is active, dismiss and reschedule</p>
+</blockquote>
+<p>Send later in Texts relies on the desktop being powered on and the app running. I believe they store it as an action on device. While on Beeper, you can instead send messages later because those actions are stored on their server.</p>
+<p>Due to this difference in system, while send later is more convenient on Beeper, it also has a poor UX. When you schedule a message in Beeper, it disappears back into the button. You also cannot schedule two messages to the same person, which in my opinion is fine. On Texts, it shows up inline and feels way more native to the app itself. You can also not reschedule a message in Beeper (fine by me, I will just copy paste); while you can do so in Texts.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-5f2083e3bff.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Schedule send UI in Beeper and how the scheduled send ends up looking like inside the Beeper interface"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-5f2083e3bff.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Schedule send UI in Beeper and how the scheduled send ends up looking like inside the Beeper interface</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-986c5d0f5d7.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Send Later UI in Texts and how the scheduled send ends up looking like inside the Beeper interface"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-986c5d0f5d7.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Send Later UI in Texts and how the scheduled send ends up looking like inside the Beeper interface</figcaption>
+</figure>
+</div>
+</div></div></section>
+<section id="view-thread" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="view-thread">View Thread</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+</blockquote>
+<p>Beeper allows you to show thread in a consecutive set of replies. Honestly, that has been a life-saver for me. As someone who often tends to have multiple conversations in parallel with the same person, show thread allows me to skim over the conversation way quicker.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-82a76dc73ab.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-82a76dc73ab.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div></section>
+<section id="auto-copy" class="level4">
+<h4 class="anchored" data-anchor-id="auto-copy">Auto-copy</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>One of the best features of Beeper and Texts is: it auto copies the two factor auth code onto your clipboard to be pasted into the textboxes on the website. Yes, exactly that meme for iPhone but built by Beeper and Texts.</p>
+</section>
+<section id="auto-archive" class="level4">
+<h4 class="anchored" data-anchor-id="auto-archive">Auto-Archive</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Both Beeper and Texts have an option to auto-archive. Texts works in days by default, and Beeper in minutes. Both end up having the same functionality.</p>
+</section>
+<section id="remind-later" class="level4">
+<h4 class="anchored" data-anchor-id="remind-later">Remind Later</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> Single or multiple messages, auto-archive on snooze</p>
+</blockquote>
+<p>This is completely missing from Beeper unfortunately, and given they are better poised to be doing this (because they have their own servers) — I am disappointed. Remind later shows the same UI as scheduled send, just that in this case: you receive notification again on the set time. You can choose to archive threads that you have set a remind for in general settings. It is very similar to how snooze works in Spark Email.</p>
+</section>
+<section id="openai-integration" class="level4">
+<h4 class="anchored" data-anchor-id="openai-integration">OpenAI integration</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Texts has an option to draft replies and to transcribe voice messages through OpenAI. This is a part of their premium plan. I don’t know if I am very excited about that, but one potential usecase might be using the transcription to send to a note-taking app such as Capacities which does have integration with Telegram/Whatsapp.</p>
+</section>
+<section id="snippets" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="snippets">Snippets</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Custom snippets or what Texts calls as Quick Replies allows you to create custom templated responses. I will be honest, I do not work in any customer oriented role and I cannot think of any use case for these, though I believe, it might be useful for other people.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c34224e60d1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Creating quick replies in Texts"><img src="https://nerdymomocat.github.io/posts/images/textsvsbeeper/Texts_vs._Beeper_The_Appsolute_Winner_Is-c34224e60d1.webp" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Creating quick replies in Texts</figcaption>
+</figure>
+</div>
+</div></div></section>
+<section id="undo-send" class="level4">
+<h4 class="anchored" data-anchor-id="undo-send">Undo Send</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> Specify in seconds <code>0-10</code></p>
+</blockquote>
+<p>Texts allows for undo send using <code>Shift + Cmd + Z</code>. This is very much equivalent to undo send in gmail and is awesome. The amount of typo filled messages I write when I am half asleep serves me no good.</p>
+</section>
+<section id="labels" class="level4">
+<h4 class="anchored" data-anchor-id="labels">Labels</h4>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-xmark" aria-label="xmark"></i></p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i></p>
+</blockquote>
+<p>Texts supports labels, one of the major organization perks. You can have default labels assigned to a conversation, to an app, and assign labels of your own. Then you can filter or search using these labels through the hamburger menu on the top left.</p>
+</section>
+</section>
+<section id="keyboard-shortcuts" class="level3">
+<h3 class="anchored" data-anchor-id="keyboard-shortcuts">Keyboard Shortcuts</h3>
+<blockquote class="blockquote">
+<p>Beeper: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-minus" aria-label="minus"></i> Navigation</p>
+<p>Texts: <i class="fa-solid fa-check" aria-label="check"></i> <i class="fa-solid fa-plus" aria-label="plus"></i> Navigation and Actions</p>
+</blockquote>
+<p>Beeper, in my experience does not support action based keyboard shortcuts and rather just navigation based shortcuts. So, you have a shortcut for search, a shortcut to move between apps, and between categories, but that is it. Texts on the other hand aims to be completely accessible through keyboard, supporting both navigation (moving through the app) and action (reply, reminders, copy notification, schedule a message, delete etc) through keyboard.</p>
+<p>One of the best keyboard shortcuts is Focus App (that allows you to bring Texts to the front) instead of opening it through Raycast, and is something I have extensively used in the past 2 days.</p>
+</section>
+</section>
+<section id="final-verdict" class="level2">
+<h2 class="anchored" data-anchor-id="final-verdict">Final Verdict</h2>
+<p>I do not give verdicts, the above description is pretty detailed, go make your own decision! For me, I am personally leaning towards Texts at the moment; but it does lack some basic things I need.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Productivity Apps</category>
+  <category>Messaging</category>
+  <category>MacOS</category>
+  <category>Social Media</category>
+  <category>All-In-One</category>
+  <guid>https://nerdymomocat.github.io/posts/textsvsbeeper.html</guid>
+  <pubDate>Mon, 26 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Creating an Updated Resume with Notion and Python</title>
+  <link>https://nerdymomocat.github.io/posts/notion_latex_resume.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>All you need: this <a href="https://nerdymomocat-shortened-url.vercel.app/notion_latex_resume_template">notion template</a>, this <a href="https://nerdymomocat-shortened-url.vercel.app/notion_latex_resume_replit_code">replit project</a> or this <a href="https://nerdymomocat-shortened-url.vercel.app/notion_latex_resume_github_code">github project</a> if you want to run it locally.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image6.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example generated resume image</figcaption>
+</figure>
+</div>
+<p>How does it work?</p>
+<p>Well, the notion template comes with a stylized file for latex. You can use it in your own system, or upload the zip to overleaf.</p>
+<p>It is based off a very popular template by <a href="https://www.overleaf.com/latex/templates/deedy-cv/bjryvfsjdyxz">Deedy</a>: modified to be rendered as a single column resume.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image3.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Template folder</figcaption>
+</figure>
+</div>
+<p>See that <code>resume_generated.tex</code> file?</p>
+<p>That is the one we would be generating anytime we need to update our resume.</p>
+</section>
+<section id="setup" class="level3">
+<h3 class="anchored" data-anchor-id="setup">Setup</h3>
+<p>Oops! I got ahead of myself.</p>
+<section id="notion-setup" class="level4">
+<h4 class="anchored" data-anchor-id="notion-setup">Notion Setup</h4>
+<p>Let’s first talk about the template itself.</p>
+<p>It consists of 2 databases:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The resume information (MEOW| Resume Database)</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image2.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The resume structure (MEOW| Resume Database Formatting)</figcaption>
+</figure>
+</div>
+<p>What do they do?</p>
+<p>MEOW| Resume Database Formatting Database tells you which sections there are.</p>
+<p>It has just 7 properties: - Name (name of the section) - Sort By (time end or start) - Sort Direction (ascending or descending) - Rank (Order in which you want sections) - Item Format (Individual item formats) - Section Format (Start and end of section formatting) - MEOW| Resume Database (Related resume items/entries)</p>
+<p>Items are placed inside section format using <code>NP:Items</code>.</p>
+<p>Item Properties inside the format are referred by <code>NP:Property_Name</code></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image7.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">How Items and Property Names are used for formatting</figcaption>
+</figure>
+</div>
+<p>MEOW| Resume Database includes each item. It only has 9 properties.</p>
+<ul>
+<li>Name</li>
+<li>URL</li>
+<li>People</li>
+<li>Organization</li>
+<li>Time (Can be date, year, range)</li>
+<li>Comments</li>
+<li>Status</li>
+<li>Geographic Location</li>
+<li>MEOW| Resume Database Formatting (Section the item belongs to)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image9.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Properties in the MEOW| Resume Database</figcaption>
+</figure>
+</div>
+<p>Any of the text properties in the free text can have linked urls, bold or italics and it is rendered equivalently in LaTeX.</p>
+<section id="add-one-time-information" class="level5">
+<h5 class="anchored" data-anchor-id="add-one-time-information">Add One-Time Information</h5>
+<p>Adding information is super-duper easy.</p>
+<p>The template comes with buttons for one time addition of basics.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image4.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">One time addition buttons</figcaption>
+</figure>
+</div>
+<p>It also has an add new information callout with pre-added buttons that you can just add as a synced block to your dashboard that you open everyday.</p>
+<p>The buttons come with a ton of pre-filled information and pointers of things you need to add/replace to make it easy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image8.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">New information addition buttons</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image5.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Pre-filled information in new information addition buttons</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image12.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example of newly add information using addition buttons</figcaption>
+</figure>
+</div>
+</section>
+<section id="make-modifications" class="level5">
+<h5 class="anchored" data-anchor-id="make-modifications">Make Modifications</h5>
+<p>The template also includes a modification block.</p>
+<p>A submitted paper got accepted? A submitted grant got accepted? A student graduated?</p>
+<p>Handle it through the modify callout. Remember to add this as a synced block to your workspace too.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image11.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example of modify callout</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="replit-setup" class="level4">
+<h4 class="anchored" data-anchor-id="replit-setup">Replit Setup</h4>
+<p>Then you go to the repl.</p>
+<p>Fill in the value for these secrets. (Remember to share your template page in your workspace with the notion integration key)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/notion_latex_resume/image10.webp" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Secret environment variables in replit</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="generate" class="level3">
+<h3 class="anchored" data-anchor-id="generate">Generate</h3>
+<p>And click run!</p>
+<p>And voila. It generates the resume_generated.tex</p>
+<p>It automatically takes care of a few things - Adds inline annotations to match notion - Adds href when there are links in notion - Does not add empty sections - Sorts entries in a section.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><video src="images/notion_latex_resume/notion_latex_resume_video.mp4" class="img-fluid" controls=""><a href="images/notion_latex_resume/notion_latex_resume_video.mp4">Video</a></video></p>
+<figcaption class="figure-caption">Example of Generating The Resume</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Tutorial</category>
+  <category>Resources</category>
+  <category>Notion</category>
+  <category>Publishing</category>
+  <category>Academia</category>
+  <category>Python</category>
+  <category>Automation</category>
+  <guid>https://nerdymomocat.github.io/posts/notion_latex_resume.html</guid>
+  <pubDate>Wed, 03 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Streamline Your Bookmark Management w/ Notion and AI</title>
+  <link>https://nerdymomocat.github.io/posts/self_organizing_bookmarks.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>I absolutely despise the tedious task of manually tagging everything in a Bookmark Manager. It’s just an extra step that my ADHD mind struggles to keep up with. I mean, seriously, who has the time and patience for that?!</p>
+<p>As a result, my bookmark inbox ends up becoming a chaotic mess with over 200 entries. It’s overwhelming and counterproductive, to say the least. But fear not, my fellow overwhelmed minds, there’s a solution on the horizon - automation!</p>
+<p>With the power of automation, we can streamline our bookmark management process and save ourselves from the overwhelming task of manual tagging. It’s like having a personal assistant that takes care of all the grunt work for us. And let me tell you, it’s a game-changer.</p>
+</section>
+<section id="how" class="level2">
+<h2 class="anchored" data-anchor-id="how">How?</h2>
+<p>So, you might be wondering, what exactly does this automation do to streamline our bookmark management woes? Let me break it down for you:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://nerdymomocat.github.io/posts/images/self_organizing_bookmarks/image2.gif" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example of self-organizing bookmarks working</figcaption>
+</figure>
+</div>
+<section id="extracts-content-of-the-page" class="level3">
+<h3 class="anchored" data-anchor-id="extracts-content-of-the-page">Extracts content of the page</h3>
+<p>Firstly, it extracts the content of the page you’re bookmarking. It ensures that the content is fully loaded and not hindered by any pesky JavaScript issues. This way, you can rest assured that you’re capturing the complete essence of the page.</p>
+</section>
+<section id="takes-screenshot-of-the-page-using-screenia-by-s_badaoui" class="level3">
+<h3 class="anchored" data-anchor-id="takes-screenshot-of-the-page-using-screenia-by-s_badaoui">Takes screenshot of the page using <a href="https://www.screenia.best/">Screenia</a> by <span class="citation" data-cites="s_badaoui">@s_badaoui</span></h3>
+<p>Next, it takes a screenshot of the page using the nifty tool called Screenia by the talented <span class="citation" data-cites="s_badaoui">@s_badaoui</span>. This comes in handy when the automation couldn’t fetch the content of the page earlier. In such cases, it cleverly applies OCR (Optical Character Recognition) on the captured image to extract the necessary information.</p>
+</section>
+<section id="call-openai-api" class="level3">
+<h3 class="anchored" data-anchor-id="call-openai-api">Call OpenAI API</h3>
+<p>But wait, there’s more! The automation then calls the OpenAI API, which works its magic and provides a JSON file containing a summary of the page, along with relevant tags and categories. These tags and categories are selected from a pre-defined list, ensuring that your bookmarks are organized and easily searchable.</p>
+</section>
+<section id="add-screenshot-to-dropbox" class="level3">
+<h3 class="anchored" data-anchor-id="add-screenshot-to-dropbox">Add screenshot to dropbox</h3>
+<p>Now, here comes the cool part. The automation adds the screenshot of the page to Dropbox, making it easily accessible and shareable. It then retrieves the URL of the uploaded image, so you can conveniently view and reference it whenever needed.</p>
+</section>
+<section id="parses-the-information" class="level3">
+<h3 class="anchored" data-anchor-id="parses-the-information">Parses the information</h3>
+<p>Last but not least, the automation parses all the gathered information and seamlessly adds it to Notion. Notion acts as your centralized hub for bookmark management, allowing you to effortlessly categorize, search, and access your bookmarks with just a few clicks.</p>
+</section>
+</section>
+<section id="run-this-on-your-own" class="level2">
+<h2 class="anchored" data-anchor-id="run-this-on-your-own">Run this on your own</h2>
+<p>If you want to run this on your own, you need:</p>
+<ol type="1">
+<li><p>iOS/MacOS (because this is dependent on shortcuts app)</p></li>
+<li><p><a href="https://www.notion.so/help/create-integrations-with-the-notion-api">Notion Integration Key</a></p></li>
+<li><p>Bookmarks Database duplicated from the link below, shared with integration and then get its database ID</p></li>
+<li><p><a href="https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key">Open AI API Key</a></p></li>
+<li><p>Free <a href="https://apps.apple.com/us/app/actions/id1586435171">Actions app</a> by <span class="citation" data-cites="sindresorhus">@sindresorhus [On both MacOS and iOS]</span></p></li>
+<li><p>Connect your dropbox account in shortcuts (should hopefully prompt itself)</p></li>
+</ol>
+<p>However, like with any automation, there are a few issues to be aware of. Let’s take a look at them:</p>
+<ol type="1">
+<li><p>One downside is that this automation may take some time to run. So, if you’re using it on iOS and your macOS device is in the background, you might see a spinner indicating that the process is still ongoing. Just keep in mind that it’s best not to add two bookmarks within a minute to avoid any potential conflicts.</p></li>
+<li><p>Another issue to be mindful of is the rate limit of Screenia. While it’s a fantastic tool for taking screenshots, it does have its limitations. If you’re adding bookmarks at a rapid pace, you might run into the rate limit of Screenia. In such cases, you may need to wait for a while before the automation can successfully capture the screenshots.</p></li>
+<li><p>Ah, the dreaded iOS permissions. Unfortunately, iOS has a tendency to bombard us with permission requests, and this automation is no exception. Each time you run it, you may have to deal with those annoying permission prompts. It can be quite frustrating, but don’t worry, you’re not alone in this struggle.</p></li>
+</ol>
+<p>Despite these minor hiccups, the benefits of streamlining your bookmark management with Notion and AI far outweigh the inconveniences.</p>
+<p>And finally, get the Apple Shortcut <a href="https://nerdymomocat-shortened-url.vercel.app/self_organizing_bookmarks_shortcuts">here</a>.</p>
+</section>
+<section id="support-me" class="level2">
+<h2 class="anchored" data-anchor-id="support-me">Support Me</h2>
+<p>If you do decide to give this automation a try, I would be incredibly grateful for your support. Additionally, if you find this automation helpful and would like to show your appreciation, you can also support me by buying me a coffee. Your support would not only help fuel my caffeine addiction but also motivate me to create more useful tools in the future.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Tutorial</category>
+  <category>Resources</category>
+  <category>Notion</category>
+  <category>AI</category>
+  <category>Automation</category>
+  <category>Apple Shortcuts</category>
+  <guid>https://nerdymomocat.github.io/posts/self_organizing_bookmarks.html</guid>
+  <pubDate>Tue, 02 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Choose Your Note-Taking App</title>
+  <link>https://nerdymomocat.github.io/posts/choose_your_notetaking_app.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Choosing the right note-taking or task management tool can be overwhelming with so many options available. But fear not, I'm here to help you navigate through the decision-making process. Once you've made your choice, I'll also guide you on what to do next. So let's dive in!</p>
+<p>And don't forget to check out the flowchart below for a quick summary of the steps to choose your perfect note-taking or task management app!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-c3ff292c042.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-c3ff292c042.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="choose-an-app" class="level2">
+<h2 class="anchored" data-anchor-id="choose-an-app">Choose an App</h2>
+<p>Now that we have that out of the way, let's dive into how I would suggest choosing a note-taking app. I'll provide examples throughout to illustrate my points.</p>
+<section id="define-the-scope" class="level3">
+<h3 class="anchored" data-anchor-id="define-the-scope">Define the scope</h3>
+<p>When selecting an app, it's important to first determine the scope of your needs. For instance, you might be looking for an app that not only allows you to take notes but also helps you manage tasks and schedule your activities. By identifying the specific functionalities you require, you can narrow down your options and find an app that meets your needs comprehensively.</p>
+<p>To illustrate this, let's consider an example. Imagine you're a busy professional who needs a note-taking app that seamlessly integrates with your task management and scheduling. In this case, you would want an app that allows you to jot down important notes, create to-do lists, and even set reminders for upcoming deadlines or meetings. By defining the scope of your requirements, you can focus your search on apps that offer these combined features.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-cebeebdc1a1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-cebeebdc1a1.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="define-the-quantity-" class="level3">
+<h3 class="anchored" data-anchor-id="define-the-quantity-">Define the quantity.</h3>
+<p>Now that you have identified the scope of your needs, it's important to be realistic about the quantity of apps you are willing to use within that scope. While it may be tempting to search for an all-in-one app that covers every aspect you desire, it's crucial to understand that such a comprehensive solution may not exist or may not meet all your requirements effectively.</p>
+<p>To put things into perspective, let's consider an example. Imagine you are a creative individual who wants to have a note-taking app for jotting down ideas, a task management app for organizing your project deadlines, a separate app for scheduling your appointments, and another app for mood boarding. In this case, it would be unrealistic to expect a single app to fulfill all these diverse needs efficiently.</p>
+<p>By being realistic and understanding that you may need to use multiple apps to cover all the functionalities you require, you can make a more informed decision and find the best combination of apps that work seamlessly together. Remember, it's about finding the right tools that enhance your productivity and meet your specific needs, even if it means using different apps for different purposes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-193b87caf41.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-193b87caf41.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="requirements" class="level3">
+<h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
+<p>Now you need to define the requirements for the app category you are exploring.</p>
+<p>Once you have a clear understanding of the app category you are interested in, it's essential to define the specific requirements you have for that category. These requirements will serve as your criteria for evaluating and selecting the right app for your needs.</p>
+<p>Let's take the example of a note-taking app. Here are a few possible requirements you might have:</p>
+<ol type="1">
+<li>No visible markdown ever: If you prefer a more intuitive and user-friendly interface, you may want to avoid apps that rely heavily on markdown formatting. Look for apps that allow you to focus on your content without the distractions of visible markdown codes.</li>
+<li>Cloud sync native to the app: For seamless access to your notes across multiple devices, it's important to choose an app that offers built-in cloud synchronization. This ensures that your notes are automatically updated and accessible from anywhere, anytime.</li>
+<li>Web app and mobile apps: If you work on both your computer and mobile devices, you may require an app that offers a web version along with dedicated mobile apps. This allows you to access and edit your notes conveniently, regardless of the device you are using.</li>
+<li>Offline functionality: Consider whether you need an app that allows you to access and edit your notes even when you don't have an internet connection. Offline functionality can be crucial for those moments when you're in transit or in areas with limited connectivity.</li>
+</ol>
+<p>By clearly defining your requirements, you can easily filter through the available options and focus on apps that meet your specific needs. Remember, everyone's requirements may vary, so it's important to prioritize what matters most to you in an app.</p>
+</section>
+<section id="prioritize-and-annotate-your-requirements-" class="level3">
+<h3 class="anchored" data-anchor-id="prioritize-and-annotate-your-requirements-">Prioritize and annotate your requirements.</h3>
+<p>To make an informed decision when choosing an app, it's important to prioritize your requirements based on their importance to you. This will help you determine which features are essential, which ones you want, and which ones are nice to have. Additionally, creating a tool score column will enable you to compare and evaluate different apps based on these priorities.</p>
+<p>Let's continue with the note-taking app example and prioritize the requirements:</p>
+<p>a. Need (1): No visible markdown ever - This requirement is crucial for you, as you prefer a clean and distraction-free interface for your note-taking. Apps that fulfill this requirement should be given the highest priority.</p>
+<p>b. Want (2): Cloud sync native to the app - While cloud synchronization is important for accessing your notes across devices, it may not be an absolute necessity. Apps that provide this feature can be considered, but they can be ranked slightly lower in priority compared to the "need" requirement.</p>
+<p>c. Good to Have (3): Web app and mobile apps, and Offline functionality - These requirements are desirable but not essential. Having a web app and dedicated mobile apps, as well as the ability to access notes offline, would enhance your user experience, but they can be considered lower priority compared to the previous requirements.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-9ab8756483c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-9ab8756483c.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="discover-potential-tools-apps" class="level3">
+<h3 class="anchored" data-anchor-id="discover-potential-tools-apps">Discover potential tools/apps</h3>
+<p>To find potential apps that align with your requirements, it's helpful to seek recommendations from others or explore dedicated resources. For note-taking apps, you can ask for recommendations from friends, colleagues, or online communities. Additionally, you can refer to reliable sources like <a href="https://twitter.com/noteappsinfo">@noteappsinfo</a> on Twitter for feature suggestions and reviews.</p>
+<p>For the sake of this example, let's assume you have followed the previous steps and have identified your requirements for a note-taking app. Now, it's time to choose three promising options to further evaluate. It's worth noting that this step is often referred to as the "cold start problem" in the computer science world, where you have limited information to begin with.</p>
+<p>Based on your requirements, you can choose three note-taking apps that seem to meet your needs. These could be apps that have been recommended to you or ones that you came across during your research. Remember, they don't have to be the final choices, but rather three options to start with.</p>
+<p>For instance, considering the requirements you mentioned earlier, you might choose the following apps as your initial options:</p>
+<ol type="1">
+<li>App A: This app meets your "no visible markdown ever" requirement and offers native cloud synchronization. It also provides web and mobile apps, along with offline functionality.</li>
+<li>App B: Although it doesn't fully meet the "no visible markdown ever" requirement, it does offer native cloud sync, web and mobile apps, and offline functionality.</li>
+<li>App C: This app fulfills all your requirements, including "no visible markdown ever," native cloud sync, web and mobile apps, and offline functionality.</li>
+</ol>
+<p>By selecting these three promising options, you can now move on to the next step and evaluate each app based on your requirements and tool scores. Completing these five steps within a weekend will help you make an efficient decision and find the most suitable app for your note-taking needs.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-5067e16df5c.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-5067e16df5c.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Now, let's be fair here. None of the note-taking apps I've tried so far have managed to fulfill all of my requirements. For instance, Notion falls short when it comes to offline functionality, and the mobile apps for Remnote and Logseq aren't as useful as I'd hoped. However, despite these limitations, they do offer enough features to make them worth considering.</p>
+</section>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>Now, let's move on to the evaluation phase. Whether you're starting fresh with a new note-taking app or considering switching from your current one, the evaluation process remains the same.</p>
+<p>When evaluating the different apps, it's important to consider two main factors: the time spent with tools in that category (requirements) and the time you've spent with the specific tool you're evaluating (checks).</p>
+<p>To begin, I recommend spending the next 30 days exploring and using the three note-taking apps you've chosen. You don't have to try everything at once, but try to engage in similar activities across all three apps. For example, if you're looking to journal, take some time to journal in each app and see if any of them click with you.</p>
+<p>Why 30 days? Well, this timeframe allows you to get a hang of each tool and truly understand their features and functionalities. It's long enough to give you a solid grasp, but not too long that you end up collecting an overwhelming amount of data, making it difficult to switch later on.</p>
+<p>During these 30 days (or up to 90 days if you prefer), it's essential to refine your list of requirements and fill in the tool score column for each requirement. Take a look at your initial requirement list from step 3 and see if there's anything you need to add, remove, or change in terms of priority.</p>
+<p>For example, you may realize that you don't care as much about offline mode because you can tolerate an hour of the service being offline once every 3-4 months. Or perhaps you discover that you need a feature like single page sharing because you often find yourself sharing information with your peers, partner, or advisor.</p>
+<p>By continuously refining and updating your requirement list, you'll be able to narrow down your choices and find the note-taking app that best suits your needs. Remember, this evaluation process is all about finding the perfect fit for you!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-73f95a31a40.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-73f95a31a40.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<section id="assign-tool-scores" class="level3">
+<h3 class="anchored" data-anchor-id="assign-tool-scores">Assign Tool Scores</h3>
+<p>Once you have refined your requirement list, it's time to assign a tool score to each app based on how well they meet those requirements. This score should be on a scale of 0 to 1, indicating the ease or difficulty of performing a specific task.</p>
+<p>Here's a suggested scale you can use, but feel free to modify it to suit your preferences:</p>
+<p>0 - Nope! The app doesn't fulfill the requirement at all.<br>
+0.25 - Very, very poorly. The app barely meets the requirement and is challenging to use.<br>
+0.5 - Plugin/workaround. The app does not have a native feature for the requirement, but there are ways to achieve it using plugins or workarounds.<br>
+0.75 - Mostly works. The app meets the requirement for the most part but may have minor limitations or inconveniences.<br>
+1 - Yup! The app fully satisfies the requirement without any issues.</p>
+<p>As you evaluate each app, assign the corresponding tool score for each requirement. This will help you objectively compare the apps and determine which one aligns best with your needs and preferences. Don't forget to update your scores as you continue to use and explore the apps over the evaluation period.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-2a34744f548.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://nerdymomocat.github.io/posts/images/choose_your_notetaking_app/How_to_Choose_Your_Note-Taking_App-2a34744f548.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="make-a-decision" class="level3">
+<h3 class="anchored" data-anchor-id="make-a-decision">Make a decision</h3>
+<p>During my initial evaluation of note-taking tools, I quickly realized that I needed a feature like block or page mentions with synced blocks. This requirement became a priority for me, and as a result, Walling was immediately eliminated from my list since it didn't offer this functionality.</p>
+<p>Now that you have refined your needs and wants, it's time to choose a single app or a combination of apps that best meet your requirements. If you opt for a combination of apps, it's crucial to have a clear purpose in mind for each app. For example, you might decide that App A1 will be dedicated to everything related to X, while App A2 will be used for tasks or content of type Y.</p>
+<p>By narrowing down your choices and having a fixed (or a fixed set) of apps, you can streamline your note-taking process and ensure that your content is organized effectively. This will help you stay focused and maximize the benefits of using the chosen app(s) for your specific needs.</p>
+</section>
+</section>
+<section id="checks" class="level2">
+<h2 class="anchored" data-anchor-id="checks">Checks</h2>
+<p>Now, let's shift our focus to the checks you should conduct during your evaluation process.</p>
+<p>There are three major checks that I recommend:</p>
+<ol type="1">
+<li>Accessibility: Consider whether you find it easy to enter information into the chosen app. Ask yourself if the thought of needing to open the app and add information discourages you from doing so. The app should be accessible and user-friendly, making it effortless for you to input and store your notes.</li>
+<li>Stability: Evaluate the app's stability by examining how often it remains unbroken. A reliable note-taking app should function smoothly and rarely encounter technical issues. It's important to choose an app that consistently works well without frequent crashes or glitches.</li>
+<li>Usability: Remember that a note-taking system is only as good as the information you can retrieve from it. Assess how easily you can retrieve the information you need from the app. Can you quickly search for and find specific notes or content? The app should offer a seamless and efficient user experience for retrieving your stored information.</li>
+</ol>
+<p>To ensure that you maintain an effective note-taking system, continue evaluating your chosen app at regular intervals that you decide. It could be monthly, yearly, or any timeframe that suits you best. During these evaluations, repeat the assessment of your requirements and checks to see if the app continues to meet your needs.</p>
+<p>If you come across a new and shiny app that catches your attention, give it a try for a weekend or a short period of time. Compare it against your evaluation metrics and see if it satisfies more of your higher-priority requirements with a better workability score. Additionally, consider the stability of the company behind the app, ensuring that they have a solid reputation and are likely to provide continued support.</p>
+<p>If the new app fulfills more of your requirements with a higher score than your current tool, it may be worth considering a switch. However, don't be surprised if the new shiny tool falls short of meeting your actual needs and usage patterns. Sometimes, the tools that seem enticing at first glance may not align with your specific requirements and preferences.</p>
+<section id="it-may-not-fit" class="level3">
+<h3 class="anchored" data-anchor-id="it-may-not-fit">It may not fit</h3>
+<p>Let me give you an example of how this evaluation process works in practice. I discovered Capacities after already using Notion and Readwise for some time.</p>
+<p>Using a reader tool became my second priority requirement. However, I found that Reader integrates seamlessly with Notion, not Capacities. While Capacities offers some amazing features that I love, such as embedded pages, a side pane, and the ability to create objects anywhere, it falls short in two areas that are high priorities for me: single page sharing and API integration.</p>
+<p>Although I'm drawn to Capacities for its unique capabilities, it doesn't fulfill my specific needs when it comes to sharing content with others or integrating with other tools via API. As much as I appreciate Capacities' features, I decide to stick with Notion since it aligns better with my highest priority items.</p>
+<p>It's important to evaluate whether a tool meets your most critical requirements. Making an informed decision based on your priorities ensures that you choose a tool that truly addresses your specific needs and preferences.</p>
+</section>
+<section id="why-not-write-everything-in-markdown" class="level3">
+<h3 class="anchored" data-anchor-id="why-not-write-everything-in-markdown">Why not write everything in markdown</h3>
+<p>Now let's discuss the question of why not write everything in markdown.</p>
+<p>While some people prefer writing in markdown due to its simplicity and portability, switching to a markdown-based note-taking system can be a significant decision, especially if you value consistent UI/UX.</p>
+<p>There are a few reasons why someone might choose not to write everything in markdown:</p>
+<p>(a) Personal Preference: Markdown may not be everyone's cup of tea. Some individuals simply dislike using markdown syntax and find it cumbersome or less intuitive compared to a more visually-oriented editor.</p>
+<p>(b) UI/UX Considerations: Markdown-based note-taking apps often have a more code-like appearance, resembling text editors such as VS Code. For those who prefer a different aesthetic or a more polished user interface, markdown may not be the ideal solution.</p>
+<p>(c) File Management: Writing in markdown typically involves working with local files, which may require manual organization and maintenance. This can be a hassle for individuals who prefer a more streamlined and centralized approach to note-taking, where files are managed within a dedicated app rather than as separate files on their computer.</p>
+<p>Furthermore, even when using markdown files, interoperability between different markdown-based note-taking apps is not always seamless. For instance, if someone uses both Logseq and Obsidian in the same directory, they may encounter challenges with syncing, linking, or rendering certain markdown elements consistently between the two apps.</p>
+<p>Ultimately, it's crucial to consider your own preferences, workflow, and the specific features and functionalities you require when deciding whether to write everything in markdown or opt for a different note-taking app that aligns better with your needs and desired user experience.</p>
+</section>
+</section>
+<section id="tl-dr" class="level2">
+<h2 class="anchored" data-anchor-id="tl-dr">tl;dr</h2>
+<p>And that concludes my TED Talk on "Just Pick Your Tool, Keep Evaluating It." Remember, choosing the right note-taking app is all about finding the one that best meets your requirements and preferences. Once you've made your choice, continue evaluating it regularly to ensure it continues to serve your needs effectively.</p>
+<p>By refining your requirements, assigning tool scores, and conducting checks on accessibility, stability, and usability, you can make an informed decision on which app to use. Don't be swayed by shiny new tools that may not fulfill your actual needs. Stay true to what works best for you and your note-taking process.</p>
+<p>So, go ahead, pick your tool, and embark on a journey of continuous evaluation and improvement. Happy note-taking!</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Note Taking</category>
+  <category>Opinion</category>
+  <category>Productivity Apps</category>
+  <category>PKM</category>
+  <guid>https://nerdymomocat.github.io/posts/choose_your_notetaking_app.html</guid>
+  <pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Google Docs Is Underrated</title>
+  <link>https://nerdymomocat.github.io/posts/gdocs_are_underrated.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>If you’ve been caught up in the excitement of new note-taking apps, it’s time to take a step back and revisit the tried and true tool that is Google Docs (<a href="https://twitter.com/googledocs">@googledocs</a>). It’s easy to overlook the features and updates that have been added over time. So, let’s dive in and explore why you should give Google Docs another look!</p>
+<p>Tip: Use <a href="http://docs.new/">docs.new</a>/{account_number} to create a new doc with a particular signed in account.</p>
+<p>And you'll be greeted with this beauty. IMO, a much more modern design. (ping: <a href="https://twitter.com/hobdaydesign">@hobdaydesign</a>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-96bd008b675.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-96bd008b675.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-96bd008b675.mp4">Video</a></p>
+</figure>
+</div>
+<p>Alright, that brings us to one of the first new features that people think <a href="https://twitter.com/googledocs">@googledocs</a> does not have, but actually does!</p>
+</section>
+<section id="general-features" class="level2">
+<h2 class="anchored" data-anchor-id="general-features">General Features</h2>
+<section id="page-setup-and-design" class="level3">
+<h3 class="anchored" data-anchor-id="page-setup-and-design">Page Setup and Design</h3>
+<p>Pageless docs. It is instead meant to render a beautiful document on-screen instead of focussing on margins/print layouts.</p>
+<p>See here: <a href="https://support.google.com/docs/answer/11528737">support.google.com/docs/answer/11…</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-93bfff63476.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-93bfff63476.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="version-history" class="level3">
+<h3 class="anchored" data-anchor-id="version-history">Version History</h3>
+<p>Google docs has version history. You can name a version. You can create a new version, check for changes and restore a previous version.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-70c2ad8441b.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-70c2ad8441b.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="keyboard-shortcuts" class="level3">
+<h3 class="anchored" data-anchor-id="keyboard-shortcuts">Keyboard Shortcuts</h3>
+<p>You can work using your keyboard for almost everything using the new search menu option.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-462a69300a5.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-462a69300a5.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-462a69300a5.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="clickable-checkboxes" class="level3">
+<h3 class="anchored" data-anchor-id="clickable-checkboxes">Clickable Checkboxes</h3>
+<p>Checkboxes that you can create using markdown like syntax [] and have options for both, checked by strikethrough and just checked boxes.</p>
+<p>Btw, in the gif below you will notice how the expanded toolbar is persistent even when I'm changing things in the doc itself.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-e5323222fde.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-e5323222fde.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-e5323222fde.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="citation-manager" class="level3">
+<h3 class="anchored" data-anchor-id="citation-manager">Citation Manager</h3>
+<p>Inbuilt citation generator and manager. The only problem that exists here is the lack of citation sync across all documents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-f0dc5fdffb9.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-f0dc5fdffb9.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-f0dc5fdffb9.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="history-diff-and-merge" class="level3">
+<h3 class="anchored" data-anchor-id="history-diff-and-merge">History Diff and Merge</h3>
+<p>Do you prefer to work on a different "private" version of a document so that people do not see your edits?</p>
+<p>You can create a duplicate document and then compare it to another document.</p>
+<p>Includes comments too. AND comments can be emoji reacts 🤯. (ref: <a href="https://support.google.com/docs/answer/190843#compare_documents">support.google.com/docs/answer/19…</a>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-44193324ade.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-44193324ade.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="markdown" class="level3">
+<h3 class="anchored" data-anchor-id="markdown">Markdown</h3>
+<p>But but, I like writing in markdown and Google Docs is an ancient application that does not support markdown.</p>
+<p>You need to realize,</p>
+<p>(a) there are many people (like me) who write in LaTex for their day job &amp; still don't like writing in markdown.</p>
+<p>(b) You can use markdown in docs!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-11b7a92c6cb.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-11b7a92c6cb.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-11b7a92c6cb.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="outline-summary-and-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="outline-summary-and-dictionary">Outline, Summary and Dictionary</h3>
+<p>Headings create a sticky outline of contents on the left. Another point to note is, Headings automatically create toggles in pageless view! Although not auto-generated, they're likely to be the first point of AI inclusion.</p>
+<p>Summary stands out from other apps' designs. It remains sticky.</p>
+<p>Dictionary in the side bar that defines words &amp; offers synonyms/antonyms.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-c46828c4573.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-c46828c4573.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="basic-content-types" class="level3">
+<h3 class="anchored" data-anchor-id="basic-content-types">Basic Content Types</h3>
+<p>Insert different types of content:</p>
+<p>1. Footnotes</p>
+<p>2. Horizontal Lines</p>
+<p>3. Equation</p>
+<p>4. Inline code</p>
+<p>5. Bookmarks and bookmark links</p>
+<p>6. Linked charts (I talk about linked content later in the thread, in short, a chart created in sheets, pasted into docs, which updates automatically)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-cc9f64a1f9f.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-cc9f64a1f9f.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="publish-to-web" class="level3">
+<h3 class="anchored" data-anchor-id="publish-to-web">Publish to Web</h3>
+<p>You can publish your document to web (for free) AND embed them (unlike notion docs). You can decide whether you want to manually update the document or update it as you go.</p>
+<p>This is how our sample document looks like: <a href="https://tinyurl.com/example-pub-doc">tinyurl.com/example-pub-doc</a></p>
+<p>Read here: <a href="https://support.google.com/docs/answer/183965">support.google.com/docs/answer/18…</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-087be88bda2.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-087be88bda2.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="text-width-and-columns" class="level3">
+<h3 class="anchored" data-anchor-id="text-width-and-columns">Text Width and Columns</h3>
+<p>You can change the amount of space any text covers (similar to Notion, but way more options)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-f3206d092b6.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-f3206d092b6.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="works-offline" class="level3">
+<h3 class="anchored" data-anchor-id="works-offline">Works Offline</h3>
+<p>Any google workspace software has an option to use it offline.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-05f47b0d9ce.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-05f47b0d9ce.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="translate-document" class="level3">
+<h3 class="anchored" data-anchor-id="translate-document">Translate Document</h3>
+<p>Create a translated copy of the current document</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-63751d205d9.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-63751d205d9.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="explore-from-google-search" class="level3">
+<h3 class="anchored" data-anchor-id="explore-from-google-search">Explore from Google Search</h3>
+<p>Explore. We'll test this by copying the front page of htmldocs (<a href="https://htmldocs.com/">htmldocs.com</a>) released by <a href="https://twitter.com/0k_zh">@0k_zh</a>.</p>
+<p>You can explore the topics in the doc, find related images for that topic, &amp; look through your drive for the topic too!</p>
+<p>Tip: You can drag images into the doc</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-9b99187898c.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-9b99187898c.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-9b99187898c.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="linked-objects" class="level3">
+<h3 class="anchored" data-anchor-id="linked-objects">Linked Objects</h3>
+<p>Linked Objects.</p>
+<p>You can link other google workspace content inside docs. (Would love to hear your thoughts <a href="https://twitter.com/gobino">@gobino</a>).</p>
+<p>They are updated (automatically or manually) when any change is made to the other object. These can be charts, tables or slides.</p>
+<p>Ref: <a href="https://support.google.com/docs/answer/7009814">support.google.com/docs/answer/70…</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-ff29db1722d.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-ff29db1722d.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-ff29db1722d.mp4">Video</a></p>
+</figure>
+</div>
+<p>While presentation slides embed as images, sheets embed as tables (making them look non-clunky). You can also pin header rows!</p>
+<p>It is a one way sync. If you add something on the doc, it does not appear in the sheet but the vice-versa behaves just like slides.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-1205119d987.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-1205119d987.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="notification-settings" class="level3">
+<h3 class="anchored" data-anchor-id="notification-settings">Notification Settings</h3>
+<p>Varied notification settings:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-2c6099d48f1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-2c6099d48f1.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="smart-chips" class="level2">
+<h2 class="anchored" data-anchor-id="smart-chips">Smart Chips</h2>
+<p>Smart chips are different kinds of mentions. You can mention date, people, files, calendar event and locations.</p>
+<section id="date-chip" class="level3">
+<h3 class="anchored" data-anchor-id="date-chip">Date Chip</h3>
+<p>Date smart chips allow you to:</p>
+<p>(a) Add date using shorthands</p>
+<p>(b) Present the date in different formats</p>
+<p>(c) Book a meeting on the date</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-950fcb8c570.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-950fcb8c570.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="people-chip" class="level3">
+<h3 class="anchored" data-anchor-id="people-chip">People Chip</h3>
+<p>Next up, people chip</p>
+<p>(a) Popup to share a document when you mention a person</p>
+<p>(b) View contact details of the person/email</p>
+<p>(c) Send them an email from the doc</p>
+<p>(d) Start a video call/chat with them right from the document</p>
+<p>(e) Book a meeting with them</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-63f2c7cb2e9.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-63f2c7cb2e9.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="file-chip" class="level3">
+<h3 class="anchored" data-anchor-id="file-chip">File Chip</h3>
+<p>File chip</p>
+<p>(a) Mention any file in google drive</p>
+<p>(b) Hover over it to see it at a quick glance. Also shows when it was last updated.</p>
+<p>(c) Open preview to have a persistent modal on side, which doesn't automatically close when you are typing. You can also select content from preview.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-8684835ad92.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-8684835ad92.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="calendar-chip" class="level3">
+<h3 class="anchored" data-anchor-id="calendar-chip">Calendar Chip</h3>
+<p>(a) Mention an existing event in the doc</p>
+<p>(b) Use the attach option to attach the current document to the calendar event</p>
+<p>(c) Click the event name to directly join the video call if one exists, or go to the calendar event page.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-c661c1d44df.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-c661c1d44df.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="place-chip" class="level3">
+<h3 class="anchored" data-anchor-id="place-chip">Place Chip</h3>
+<p>(a) Search and add a location</p>
+<p>(b) Preview in maps on the sidebar</p>
+<p>(c) Get directions to the location</p>
+<p>(d) Hover to see modal preview</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-3c6ac55bd11.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-3c6ac55bd11.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="task-timer-variable-chips" class="level3">
+<h3 class="anchored" data-anchor-id="task-timer-variable-chips">Task, Timer, Variable Chips</h3>
+<p>There are task, timer and variable smart chips too that I do not have access to at the moment, but you can check them out here.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Thorsten Ball talks about variables in Google Docs">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Thorsten Ball talks about variables in Google Docs
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p></p><div id="tweet-98421"></div><script>tweet={"url":"https:\/\/twitter.com\/thorstenball\/status\/1673636222626050048","author_name":"Thorsten Ball","author_url":"https:\/\/twitter.com\/thorstenball","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EGoogle Docs now has variables? Wow\u003Cbr\u003E\u003Cbr\u003EDoes someone have an explanation for what happened with Google Docs?\u003Cbr\u003E\u003Cbr\u003EFor years and years it seemed stagnant and since, what, last year, there&#39;s all these new, very nice features popping up on a regular basis.\u003Cbr\u003E\u003Cbr\u003EI need the inside story here. \u003Ca href=\"https:\/\/t.co\/EQXa8p9SiJ\"\u003Epic.twitter.com\/EQXa8p9SiJ\u003C\/a\u003E\u003C\/p\u003E&mdash; Thorsten Ball (@thorstenball) \u003Ca href=\"https:\/\/twitter.com\/thorstenball\/status\/1673636222626050048?ref_src=twsrc%5Etfw\"\u003EJune 27, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-98421").innerHTML = tweet["html"];</script><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="smart-chip-previews" class="level3">
+<h3 class="anchored" data-anchor-id="smart-chip-previews">Smart Chip Previews</h3>
+<p>There are also smartchips for app integrations and I do not know of many but <a href="https://help.whimsical.com/article/704-preview-whimsical-files-in-google-docs-as-a-smart-chip">Whimsical</a> has one at the moment.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-004b442676b.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-004b442676b.gif" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Create templated document dropdowns that you can use anywhere in the document. It comes with two that are preconfigured but you can configure one on your own.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-4132a015b82.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-25"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-4132a015b82.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="building-blocks" class="level3">
+<h3 class="anchored" data-anchor-id="building-blocks">Building Blocks</h3>
+<p>Building blocks are templates built using smart chips.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-d5f3e8e8fb5.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-26"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-d5f3e8e8fb5.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Some of those are integrated into other Google services though.</p>
+</section>
+<section id="email" class="level3">
+<h3 class="anchored" data-anchor-id="email">Email</h3>
+<p>For example, email draft, where you can draft a complete email in the doc, and then send it through gmail.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-6e1bbb62a69.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-27"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-6e1bbb62a69.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="meeting-notes" class="level3">
+<h3 class="anchored" data-anchor-id="meeting-notes">Meeting Notes</h3>
+<p>Another building block is meeting notes, which auto mentions the date, the document and creates a draft meeting note template right inside your doc when you select a calendar event.</p>
+<p>It also gives you an option to attach the doc to the meeting.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-808183d1600.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-28"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-808183d1600.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="tables-and-dropdown" class="level3">
+<h3 class="anchored" data-anchor-id="tables-and-dropdown">Tables and Dropdown</h3>
+<p>Other building blocks are just templates that include dropdowns and tables. For example, this is the review tracker building block.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-ee50137b5dd.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-29"><img src="https://nerdymomocat.github.io/posts/images/gdocs_are_underrated/Google_Docs_Is_Underrated-ee50137b5dd.webp" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="keep-clippings" class="level3">
+<h3 class="anchored" data-anchor-id="keep-clippings">Keep Clippings</h3>
+<p>Last of the bunch: Keep clippings. At the start of the thread, when I did a design overview, you would see a a keep icon in the sidebar.</p>
+<p>(a) Add an existing note to document</p>
+<p>(b) Add a new note or a checklist that automatically attaches the document to it</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-4f402032850.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-30"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-4f402032850.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-4f402032850.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="templates" class="level2">
+<h2 class="anchored" data-anchor-id="templates">Templates</h2>
+<p>Tip: There are so many templates in Google Docs. Check them out at <a href="http://docs.google.com/">docs.google.com</a></p>
+<p>The essay one looks like a craft doc!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-016693a5bdd.mp4" class="lightbox" data-gallery="quarto-lightbox-gallery-31"><video src="images/gdocs_are_underrated/Google_Docs_Is_Underrated-016693a5bdd.mp4" class="img-fluid" controls=""></video></a><a href="images/gdocs_are_underrated/Google_Docs_Is_Underrated-016693a5bdd.mp4">Video</a></p>
+</figure>
+</div>
+</section>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">tl;dr</h2>
+<p>Alright, that wraps up my tool suggestion for <span class="citation" data-cites="googledocs">@googledocs</span>. It’s easy to get caught up in the hype of new note-taking apps, but let’s not forget the powerhouse that is Google Docs. In terms of its ecosystem, collaboration features, and the freedom it offers for writing, nothing really comes close.</p>
+<p>I must admit, I’m a huge fan of Notion myself, but I can’t deny the strengths of Google Docs. It’s a well-established platform that seamlessly integrates with other Google tools, such as Google Drive and Google Sheets. This ecosystem makes it incredibly convenient for users who rely on multiple Google services.</p>
+<p>When it comes to collaboration, Google Docs is a game-changer. Its real-time editing capabilities allow multiple users to work on a document simultaneously, making it ideal for team projects or even just brainstorming sessions with friends. The ability to leave comments, suggest edits, and track changes ensures a smooth collaborative workflow.</p>
+<p>And let’s not forget the best part - Google Docs is free! It offers a generous amount of storage for your documents, and you can access them from any device with an internet connection. The simplicity and accessibility of Google Docs make it a go-to choice for many writers, students, and professionals.</p>
+<p>So, while new note-taking apps may be grabbing the headlines, let’s not overlook the enduring power and versatility of Google Docs. It’s a reliable tool that continues to meet the needs of millions of users worldwide.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Productivity Apps</category>
+  <category>Note Taking</category>
+  <category>Collaboration</category>
+  <category>Google Workspace</category>
+  <guid>https://nerdymomocat.github.io/posts/gdocs_are_underrated.html</guid>
+  <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Is There a Need for Mainstream Graph-Based Note-Taking Tools?</title>
+  <link>https://nerdymomocat.github.io/posts/graph_based_notetaking_opinion.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Unpopular opinion: I agree with <a href="https://twitter.com/fortelabs/"><span class="citation" data-cites="fortelabs">@fortelabs</span></a> <a href="https://twitter.com/fortelabs/1616173350778441729">here</a>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Tiago Forte talks about graph based PKM apps">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tiago Forte talks about graph based PKM apps
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p></p><div id="tweet-39064"></div><script>tweet={"url":"https:\/\/twitter.com\/fortelabs\/status\/1616173350778441729","author_name":"Tiago Forte","author_url":"https:\/\/twitter.com\/fortelabs","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EWe really need a graph-based PKM app built by a serious company for mainstream users\u003Cbr\u003E\u003Cbr\u003E• Roam is a religion\u003Cbr\u003E• Obsidian is a side hobby\u003Cbr\u003E• Logseq is an open-source project\u003Cbr\u003E• Tana is barely in alpha\u003Cbr\u003E\u003Cbr\u003EIf there was just one reliable app in this space I’d refer so much traffic to it\u003C\/p\u003E&mdash; Tiago Forte (@fortelabs) \u003Ca href=\"https:\/\/twitter.com\/fortelabs\/status\/1616173350778441729?ref_src=twsrc%5Etfw\"\u003EJanuary 19, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-39064").innerHTML = tweet["html"];</script><p></p>
+</div>
+</div>
+</div>
+<section id="mass-adoption-vs-niche-critical" class="level4">
+<h4 class="anchored" data-anchor-id="mass-adoption-vs-niche-critical">Mass adoption vs niche-critical</h4>
+<p>Mass adoption of a tool is very different than “niche” critical. As someone who loves organization, I love delving into new apps. I love all the innovation that has been popping up with these apps.</p>
+<section id="definition" class="level5">
+<h5 class="anchored" data-anchor-id="definition">Definition</h5>
+<p>Let’s define these terms first:</p>
+<ul>
+<li><p>What is critical mass? That would be the amount of people using the tool needed for the toool to survive amongst the competitors in its niche areas.</p></li>
+<li><p>What is a mainstream tool? It solves a problem that people have and is something that is a go-to for solving that problem.</p></li>
+</ul>
+</section>
+<section id="examples" class="level5">
+<h5 class="anchored" data-anchor-id="examples">Examples</h5>
+<p>Now before you come at me, for all those people who love note-taking, consider this. If someone asks you for a habit tracking tool, what do you suggest? Not an “all-in-one” tool, a specific app.</p>
+<p>Say <span class="citation" data-cites="Habitifyapp">@Habitifyapp</span> or <span class="citation" data-cites="habitica">@habitica</span>?</p>
+<p>Do you think better habit trackers don’t exist? Or someone asks for a journal app. Not an all in one app (for all you obsidian and notion people out there), but for journaling.</p>
+<p>Did you suggest <span class="citation" data-cites="dayoneapp">@dayoneapp</span> or <span class="citation" data-cites="myjourneyapp">@myjourneyapp</span>?</p>
+</section>
+</section>
+<section id="why-does-the-distinction-matter" class="level4">
+<h4 class="anchored" data-anchor-id="why-does-the-distinction-matter">Why does the distinction matter?</h4>
+<p>Take a moment to think about why that is the case. Why are these tools “everlasting” and popular? Give me some specific examples you say?</p>
+<p><span class="citation" data-cites="GoodNotesApp">@GoodNotesApp</span> is the go-to solution to the problem of aesthetic, useful, organizable handwritten searchable notes which is why they still exist even though Apple Notes exists. <span class="citation" data-cites="snipd_app">@snipd_app</span> is the go-to solution of “how do I remember what I heard” in podcasts, and hence, they are solving a “mainstream” problem. <span class="citation" data-cites="airtable">@airtable</span> and <span class="citation" data-cites="NotionHQ">@NotionHQ</span> did not become popular because they were doing something “completely unexpected”.</p>
+<p>They solved the problem of “how do we store data without complicated SQL?” or “what if I want to have notes for my Google Sheets?” People started using <span class="citation" data-cites="Spotify">@Spotify</span> because they did not want to buy albums and wanted good recommendations.</p>
+<p>Imagine if spotify’s tagline was “we generate music playlists based on the mood we infer from your apple health data”, it would be cool but not mainstream. People work/think with people. How often are we in situations where we think/write/document about a “problem” start to end “alone”?</p>
+</section>
+<section id="what-we-love-vs-what-public-needs" class="level4">
+<h4 class="anchored" data-anchor-id="what-we-love-vs-what-public-needs">What we love vs what public needs</h4>
+<p>And any tool that is not collaborative or multi-platform lacks the ability to become mainstream. There is a reason <span class="citation" data-cites="todoist">@todoist</span> is so popular. Coming back to the note-taking space. There are many features that us, note-taking people love.</p>
+<p>It should have backlinks, should have markdown support, should have magical powers to transform my life when I zoom into the note-web I created. Ask any random person what they want in a note-taking app and their answer would be: frictionless adding, storage, surfacing, tagging, filtering.</p>
+<p>That is why people use Apple Notes. And with minimal difference is why <span class="citation" data-cites="evernote">@evernote</span> and <span class="citation" data-cites="BearNotesApp">@BearNotesApp</span> became popular.</p>
+<section id="lack-of-mainstream-applications" class="level5">
+<h5 class="anchored" data-anchor-id="lack-of-mainstream-applications">Lack of mainstream applications</h5>
+<p>The biggest problem with graph note-taking apps is the lack of “mainstream” applications.</p>
+<p>Most mainstream graph based explorations require automatic content extraction (for example <span class="citation" data-cites="RsrchRabbit">@RsrchRabbit</span> which looks at “graph” of academic papers).</p>
+<p>Do I hear you say, “but I love graphs?”. I think that is great that you do, but most people do not care about it. Most people who want a visual component to their notes, also want a visual component to the interaction, not use [[ to make a connection.</p>
+</section>
+</section>
+<section id="what-about-spatial-canvas-applications" class="level4">
+<h4 class="anchored" data-anchor-id="what-about-spatial-canvas-applications">What about spatial canvas applications?</h4>
+<p>That is one of the main reason why I think <span class="citation" data-cites="MuseAppHQ">@MuseAppHQ</span>, <span class="citation" data-cites="whimsical">@whimsical</span> and <span class="citation" data-cites="scrintal">@scrintal</span> are headed in the right direction of “graphs” which is more akin to “whiteboarding” something that people know, that people are used to.</p>
+<p>But these are not private. They are not local. They are not based in markdown. If you want all of those, good for you.</p>
+</section>
+<section id="older-apps-are-here-to-stay" class="level4">
+<h4 class="anchored" data-anchor-id="older-apps-are-here-to-stay">Older apps are here to stay</h4>
+<p>But given how many people use Google Docs, MS Word and Apple Notes, it is not hard to infer that people do not care about it. Am I being delusional? I sure hope so. But more than likely, I am not.</p>
+<p>Do you know how many academics still use Latex and <span class="citation" data-cites="overleaf">@overleaf</span> for their papers (yes, even in CS)?</p>
+<p>But even better, do you know how many use MS Word?</p>
+<p>You would be surprised! In summary, all I want to say is as much as I am happy that <span class="citation" data-cites="tana_inc">@tana_inc</span> exists, no it won’t kill <span class="citation" data-cites="NotionHQ">@NotionHQ</span>, just like Notion did not kill Google Docs.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Opinion</category>
+  <category>PKM</category>
+  <category>Writing</category>
+  <guid>https://nerdymomocat.github.io/posts/graph_based_notetaking_opinion.html</guid>
+  <pubDate>Wed, 08 Feb 2023 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
