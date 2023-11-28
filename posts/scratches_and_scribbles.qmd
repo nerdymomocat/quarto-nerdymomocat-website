@@ -1,0 +1,125 @@
+---
+categories:
+- Productivity Apps
+citation-location: margin
+date: '2023-09-06'
+date-modified: '2023-09-06'
+description: 'I have been told often that I good app usage reviews; and I wanted to try doing it intentionally. This is an attempt towards a version of -- scratches and scribbles -- scratch the surface and scribble about usability and features.'
+display-date: 'Sep 2023'
+filters:
+- collapse-social-embeds
+- lightbox
+format: html
+lightbox: auto
+reference-location: margin
+threeword: 'Scratches and Scribbles'
+title: 'Scratches and Scribbles -- An Attempt at Usability/Feature Testing as a Service'
+draft: false
+---
+
+::: callout-note
+## tl;dr
+
+CS researcher, knows how to code in Python, has ADHD, is price-sensitive, into tracking, productivity, note-taking, and AI-based tools. Tests on MacOS, Android, and Wear OS.
+
+Check [Previous scribbles] and the [Offer].
+:::
+
+![](images/scratches_and_scribbles/sas.jpg)
+
+For a bunch of years, I have done a significant amount of software and course usability testing. Lately, I've been doing it much more frequently. Honestly, the main reason I created this account was to engage with new app creators, to figure out if there's something I love and something that *scratches* my itch.
+
+This post is mainly documentation of what I do when I conduct one of these usability walkthroughs, who I am, what I usually look for, what I can bring to the table, and some social proof.
+
+## Offer
+
+**I'm offering a basic no-deadline 100-word scribble for free, detailed scribbles for \$25, a 5-minute video scribble for \$50, and 30-min calls for \$80, and custom pricing for continual testing.** As you can see, the pricing here is not indicative of the time I would need to spend, with your app or course (other than the call version, where it would be 30 minutes on top of usage), but rather how much I would have to plan and prepare for the output. If you have a free app that you think I'd be interested in, feel free to shoot me a message. If it's something I'm testing for personal use, I might do detailed scribbles for free. I'm not willing to pay to test apps.
+
+On my main account, I do provide some consultancy from a research perspective (fine-tuning vs in-context learning, preference learning, generation evaluation, and verification), priced significantly higher (starting at \$500/hour). You can contact me if that is something you are looking for, and we can switch over to talking on my main account, if there's a fit, so that you can be confident of my expertise.
+
+### If I have done it for free before, why am I charging for it?
+
+I think my main thought process is monetizing some aspect of the service (*I am usually paid upwards of \$100 an hour for group user voice sessions by Big Tech companies*). Secondly, it's also a time constraint and an action constraint. If you want screenshots, annotations as to what works, what doesn't, details, etc., and you want them within a certain time limit, I need to mentally make space for it. If that isn't what you need, you can just ask for a basic no-deadline scribble for free, as has always been the case.
+
+## Who Am I?
+
+I am a student researcher, transitioning to being an industry researcher this year. I have majored in computer science, and my research is in the area of LLMs (evaluation, data transparency, and fine-tuning). I have ADHD, diagnosed as an adult, which significantly informs my app usage. I've also been involved in journaling and quantified self for at least 15 years. I know how to code, primarily scripting in Python, but can hack stuff together in JavaScript. I pursue art as a hobby, both in physical and digital mediums.
+
+### What devices do I have?
+
+I use a MacBook - M1 Pro, 14-inch, and an 11-inch iPad. I use iOS at the moment but will be shifting to Android in Oct '23. I use WatchOS at the moment but, again, will be shifting to WearOS in Oct '23. I don't use external monitors at the moment but am slowly transitioning to one by the end of Sep 2023.
+
+### Which softwares am I familiar with?
+
+On a day-to-day basis, I use Spark Mail, Todoist, Texts, MacGPT, BoltAI, Notion, Canva, VS Code, Warp, Shottr, Raycast, Timer RH, Quick Draft, Numi, Rewind, Dato, Day Progress, Cloud Mounter, Flow, Data Jar, Mela, Aiko, Screen Studio, Screenflow, Screenrun, Mela, Bears, Bartender, Spotify, Overleaf, Google Suite, Procreate, Better Touch Tool, Quick Tally, and Habits. I have previously extensively used Arc Browser, Capacities, Tana, Superlist, TickTick, and possibly many others that I can't think of at the moment.
+
+## What I can help with?
+
+If you're looking for a pro-user who likes to figure things out on her own, you'd most likely benefit from my feedback. I can test usability, onboarding, and the general use case of your app. I don't approach it from the perspective of testing stated features. I usually go about it like this: I have X and Y use cases, so I'm looking for an app that fulfills them, and I envision using the app to fill a particular gap or replace a current tool.
+
+### My Use-Case Driven Scribbles
+
+This is also why I can't test/do scribbles for apps that I presently have no use case for. You'd be better served by going to someone else who either has that use case or is solely aiming to test features.
+
+Use-case/problem-driven testing and onboarding also imply that I have a certain outcome in mind, and I will mention any hurdles that come with that use case. I make sure to be very specific and define the constraints under which I am testing something---so as to not imply a general perspective. We can talk about whether this matches when you first reach out to me.
+
+### Your Feature Driven Scribbles
+
+Another kind of scribble I can do is test what you are asking me to judge an app for, where I set my use case to be the one that your target customer's looks like. I can do that pretty well, because as an academic researcher, I review as a job, and I am used to seeing things from other people's perspectives. And I am good at it. I will mention though, in such cases, I am still a proxy case study, and you are seeing through the lens of a customer who is aiming to be what you need, rather than one who is what you need.
+
+### Features I index on for long term usage
+
+Multi-platform is important for me. Even though I've been Apple ecosystem-only for the past year, I don't plan to remain in that state. So, most apps that are single-ecosystem-only\...
+
+If it's a productivity app, I heavily index on collaboration. I don't need team spaces or permissions, but I don't work in isolation. So anything that is single-person use only is already something I can't use for a long time.
+
+If it's a single-person use app, I really need to see an export option. I'm not keen on the idea of app lock-ins; even basic CSV export options are fine for many apps, in my opinion.
+
+### Features I test but do not have personal use case for
+
+I don't care much about E2E, local-first apps, and markdown. Specifically, I have a special dislike for visible markdown in editors, and yes, as someone who uses VS Code 8 hours a day and codes for 10 hours a day, I still can't bring myself to like markdown for long-form writing.
+
+### I know how LLMs perform
+
+If you have an AI app that isn't aiming to just be a direct RAG, or text generation, and is instead doing something cool with it, I would love to beta test it. This is not only from the perspective of a direct user, but also from the perspective of someone who has worked in the field of NLP for 9+ years and knows the ins and outs of how LLMs perform at various tasks. I can advise on whether you need guardrails, whether there are edge cases you haven't considered, and so on.
+
+On my main account, I do provide some consultancy from a research perspective (fine-tuning vs in-context learning, preference learning, generation evaluation, and verification), priced significantly higher (starting at \$500/hour). You can contact me if that is something you are looking for, and we can switch over to talking on my main account, if there's a fit, so that you can be confident of my expertise.
+
+## Why I Might Not Be a Good Fit?
+
+### Price sensitive
+
+I am very price-sensitive. I live in the US, but a lot of the work I do is collaborative, which involves multiple people using a software. I will 100% judge the utility of the app based on its cost. For reference, my subscription-based apps are: Readwise (for Reader), Spotify, Netflix, Google One, iCloud, ChatGPT (for GPT-4), and Todoist. My particular belief is---I'm okay with paying a one-time cost in the range of \$20-\$30 for exceptional software, and around \$4/month for apps that I use extensively (use for at least an hour a day). Any price over this, or any high margins (yes, looking at you, AI apps), and I will mention the cost---and expect a feature base that is in line with the cost.
+
+### Beta apps and new companies
+
+I don't necessarily judge apps based on how long they've been out. This is a common metric that people use to judge apps, but for me, I'm trying to integrate the app into my workflow. Sure, I have some apps that I keep an eye on for the future, but for me, an app is only useful if I can use it now, so I compare it to options available at the moment.
+
+### Animation
+
+Animation is a huge sell for iOS apps. I suffer from motion sickness and use the reduce motion setting. Heavy animation bothers me much more than it entices me. However, I do love subtle, cute, or whimsical animations, and I will mention the ones that particularly made me happy!
+
+### AI Apps
+
+I believe in the concept of bad GPT API wrappers and good GPT-based apps. I talk a bit about it here, but primarily, if your app calls an API and outputs text based on a template or constructed prompts, it's very likely that my feedback won't be overwhelmingly positive. I am still happy to talk about interactions, design, and tools, but if you're making an AI generator for X, you'll likely end up with a comment like [this](https://twitter.com/nerdymomocat/status/1688852035188469760) from my end.
+
+### Testing in isolation
+
+I have and will always compare apps. I know that many indie hackers believe they are building in a market where multiple people can have a piece of the pie, and this is definitely true, for both indie hackers and big tech companies (or else Dropbox would not have existed). But as a consumer, or someone who chooses apps or recommends them, I will look at options and compare them. So it is likely that some of my scribbles will involve comparisons such as -- look at X for feature A; I really like their implementation.
+
+### This ain't necessarily marketing material
+
+If you are looking for user-generated content for marketing, or looking for reviews that you can include on your homepage, I am not sure I am the right fit. It is very unlikely that my scribble will be all positive; it will definitely not be hype-y, and it won't have any special touches that are targeted toward making it viral or quotable.
+
+### Onboarding Calls
+I do not do onboarding calls. I just can't do them due to time constraints and how little I get out of them. And I strongly believe that while onboarding calls are great for an average customer, it helps to know what someone experiences when they try to use your app for the first time, alone, with no onboarding sequence. Because I don't read any onboarding sequence, and I believe I can figure stuff out.
+
+## I Have Done This Before
+
+### Previous scribbles
+
+I've done this a ton before. Sometimes I do detailed versions and follow up in chat; sometimes I do shorter versions. You can check my scribbles about [Horse Browser](../stream.qmd#trying-the-horse-browser), [Superlist](../stream.qmd#my-month-with-superlist-the-good-the-bad-and-the-wishlist), [Texts vs Beeper](textsvsbeeper.qmd), [Habitify](https://twitter.com/nerdy_momo_cat/status/1625480007161376769), [Collections DB](https://twitter.com/nerdymomocat/status/1670083931058876416), [Saga](https://twitter.com/nerdymomocat/status/1636279596508389376), [Notion](https://twitter.com/notefunhere/status/1546428286812598272), [Awesome Habits](https://twitter.com/nerdymomocat/status/1629511611332583426), [Google Docs](gdocs_are_underrated.qmd) and [Arc](https://twitter.com/nerdymomocat/status/1590546452966580224). I have privately tested and provided scribbles for Dropbox, Screenrun, Screenstudio, montaigne, Unlost and many others.
+
+### Social proof
+
+Some people think I'm really good at this, which is honestly why this post exists in the first place. Here are some people talking about it: [Daniel](https://twitter.com/daniel_nguyenx/status/1682282583445639169), [Cyrus Zhang](https://twitter.com/CyrusZhang99/status/1670334764421902336) and [Vlad](https://twitter.com/vladdevs/status/1698620457790873959).

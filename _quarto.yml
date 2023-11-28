@@ -1,0 +1,77 @@
+project:
+  type: website
+  preview:
+    port: 4200
+execute:
+  freeze: true
+
+website:
+  google-analytics: G-J7JWVG489F
+  open-graph: true
+    # title: "Nerdy Momo Cat"
+    # image: "preview.png"
+    # description: I’m passionate about all things personal knowledge management. I’m all about linking knowledge snippets, coding and automations, note taking and sketchnoting.
+  back-to-top-navigation: true
+  page-navigation: true
+  twitter-card:
+    creator: "@nerdymomocat"
+    site: "@nerdymomocat"
+    # image: "preview.png"
+    # description: I’m passionate about all things personal knowledge management. I’m all about linking knowledge snippets, coding and automations, note taking and sketchnoting.
+  title: "Nerdy Momo Cat"
+  favicon: favicon.ico
+  site-url: https://nerdymomocat.github.io
+  # margin-header: '[☕ Please Buy Me A Coffee](https://www.buymeacoffee.com/nerdymomocat){.btn .btn-primary role="button"}'
+  margin-footer: '<br><div id="container" class="buy-coffee-btn"><a href="https://www.buymeacoffee.com/nerdymomocat">
+  <button class="buy-coffee">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <span class="button-text"><b>Buy me a coffee</b></span>
+  </button></a>
+</div>'
+
+  navbar:
+    background: dark
+    pinned: true
+    collapse: true
+    search: true
+    left:
+      - icon: text-indent-left
+        href: posts/index.qmd
+      - icon: cursor-text
+        href: stream.qmd
+    right:
+      - icon: twitter
+        text: Find me on Twitter
+        href: https://twitter.com/nerdymomocat
+      - icon: rss
+        text: Feed
+        href: posts/index.xml
+
+format:
+  html:
+    # theme: sketchy
+    theme: quarto_mod.scss
+    highlight-style: quarto_mod.theme
+    include-in-header: [bmc.html]
+    backgroundcolor: rgba(253, 246, 227, 1)
+    # include-after-body: [anchor_copy.html]
+    metadata:
+      pagetitle: "{{< meta title >}}"
+      freeze: true
+      title-block-banner: false
+      # author: Nerdy Momo Cat
+      title-block-categories: true
+      toc-depth: 5
+
+comments:
+  giscus: 
+    repo: nerdymomocat/nerdymomocat.github.io
+    repo-id: R_kgDOJoxbeA
+    category: Announcements
+    category-id: DIC_kwDOJoxbeM4CWzrO
+    mapping: pathname
+    loading: lazy
+    input-position: top
+    reactions-enabled: true

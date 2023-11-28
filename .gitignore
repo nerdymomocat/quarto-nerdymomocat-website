@@ -1,0 +1,10 @@
+_site/
+_freeze/
+/.quarto/
+.DS_Store
+.ipynb_checkpoints/
+temp/
+*.npy
+
+/.luarc.json
+n2y_config

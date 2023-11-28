@@ -1,0 +1,27 @@
+<script>
+    window.document.addEventListener("DOMContentLoaded", function() {
+        // Select all anchor elements using their class
+        const anchorElements = document.querySelectorAll('.anchorjs-link');
+        
+        // Loop through each anchor element to attach an event listener
+        anchorElements.forEach(function(anchorElement) {
+            anchorElement.addEventListener('click', function(event) {
+                // Prevent the default behavior of the anchor
+                event.preventDefault();
+                
+                // Get the href attribute
+                const hrefValue = anchorElement.getAttribute('href');
+                
+                // Use Clipboard API to copy the href value
+                navigator.clipboard.writeText(hrefValue).then(function() {
+                    console.log('Copied to clipboard: ' + hrefValue);
+                }).catch(function(err) {
+                    console.log('Could not copy text: ', err);
+                });
+    
+                // Navigate to the link manually since the default behavior was prevented
+                window.location.href = hrefValue;
+            });
+        });
+    });
+</script>
